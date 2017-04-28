@@ -9,7 +9,6 @@
       library(dplyr)
 
       setwd("C:/Users/oakleya/Desktop/R Projects/data-quality-management")     # Wilko laptop
-      #--setwd("D:/OneDrive/R Projects/product-data-quality")           # Personal laptop      
       
       setwd("./Scripts")
       
@@ -31,7 +30,6 @@
 # Source:  create-web-product-data.R
       
       tidy.web.data()
-
 
 # Merge files together into web_product_file     
 # Source:  create-web-product-data.R
