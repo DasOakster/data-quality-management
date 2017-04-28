@@ -74,24 +74,6 @@ check.brand.consistency <- function(){
             }
 }
 
-default.assembly.attribute <- function() {
-      
-      # Create a list of Web Categories that do not require Assembly
-      
-      web.category.assembly <- subset(web.attribute,web.attribute[,1] == "Assembly")
-      web.category <- web.attribute[!(web.attribute$Category %in% web.category.assembly$Category),]
-      web.category <- data.frame(unique(web.category$Category),stringsAsFactors = FALSE)
-      colnames(web.category) <- "Category"
-      
-      # Create a missing.attributeorary table of the Articles to update
-      
-      populated.attribute <- subset(web.product.data,web.product.data$`Web Category` %in% web.category$Category)
-      
-      # Update the Articles in the Product table to NA where Assembly is not required
-      
-      web.product.data[(web.product.data$Article %in% populated.attribute$Article),28] <<- NA
-}
-
 
 default.redundant.attribute <- function(attribute) {
       
