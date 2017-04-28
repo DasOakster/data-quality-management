@@ -48,11 +48,6 @@
       }
 
 
-# Check consistency between brand attribute and product title
-# Source:  data-quality-functions  
-
-      check.brand.consistency()
-
 # Score products with data quality scores
 # Source:  score-product-data-quality
       

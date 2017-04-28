@@ -40,41 +40,6 @@ check.missing <- function(attribute) {
 
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-check.brand.consistency <- function(){
-      
-# Checks if the brand value in the attribute field appears in the product title
-      
-      # Set data quality issue flag and create column
-      
-      data.quality.issue <- -0.5
-      web.product.data$`DQ Brand Consistency Score` <<-0
-      
-      # Loop through web.product.data
-      
-      for(i in 1:NROW(web.product.data)) {
-            
-            # Check if brand is NA 
-            
-            if(is.na(web.product.data$`Brand`[i])) {
-                  
-                  web.product.data$`DQ Brand Consistency Score`[i] <<- NA
-                  }
-            
-            # Convert both attribute and title to uppercase (test is case sensitive) and compare
-            
-                  else {
-                  
-                  if(grepl(toupper(web.product.data$Brand[i]),toupper(web.product.data$`Web Description 1`[i])) == FALSE) {
-                        
-                        web.product.data$`DQ Brand Consistency Score`[i] <<- data.quality.issue
-                        }
-                  
-                  }      
-            
-            }
-}
-
-
 default.redundant.attribute <- function(attribute) {
       
 # Checks for the attribute passed whether which web categories it is required for
