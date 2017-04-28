@@ -1,7 +1,7 @@
       
-export.files <- function() {
+export.product.files <- function() {
 
-# Exports thw data quality management reports
+# Exports th data quality management reports, data for cleansing and report files
       
       setwd("..")
       setwd("./Output Files")
@@ -15,40 +15,42 @@ export.files <- function() {
       write.csv(undefined.web.category,"Undefined Web Category.csv",row.names = FALSE)
       setwd("..")
       
-      message("Outputting Missing Web Descriptions")
-      setwd("./Missing Web Description")
-      output.psa1.missing.web.lists()
-      setwd("..")
+#---------------------------------------------------------------------------------------------------------------------------------------
+
+# Output the product attribute lists at Asst Buyer, Supplier and Brand levels
       
       message("Outputting Buyer Lists")
       setwd("./Assistant Buyer")
-      output.buyer.lists()
+      output.buyer.list()
       setwd("..")
       
       message("Outputting Supplier Lists")
       setwd("./Supplier")
-      output.supplier.lists()
+      output.supplier.list()
       setwd("..")
       
       message("Outputting Brand Lists")
       setwd("./Brand")
-      output.brand.lists()
+      output.brand.list()
       setwd("..")
+ 
+#---------------------------------------------------------------------------------------------------------------------------------------
+
+# Create data for cleansing
+            
+# Output the Web Data Quality Lists for Cleansing
       
       message("Outputting Web Category Lists")
       setwd("./Web Category")
-      output.web.dq.reports()
+      output.web.category.cleanse()
       setwd("..")
+
+# Output the Missing Web Descriptions at PSA 1 Level
       
-      message("Outputting Report Data")
+      message("Outputting Missing Web Descriptions")
+      setwd("./Missing Web Description")
+      output.web.description.cleanse
       setwd("..")
-      setwd("./Reports/Report Data Files")
+#---------------------------------------------------------------------------------------------------------------------------------------
       
-      asst.buyer <- asst.buyer[order(-asst.buyer$`Avg Data Quality Score`),]
-      psa1.rank <- psa1.rank[order(-psa1.rank$`Avg Data Quality Score`),]
-      psa2.rank <- psa2.rank[order(-psa2.rank$`Avg Data Quality Score`),]
-      
-      write.csv(psa1.rank,"PSA1 Data Quality Ranking.csv", row.names = FALSE)
-      write.csv(psa2.rank,"PSA2 Data Quality Ranking.csv", row.names = FALSE)
-      write.csv(asst.buyer,"Assistant Buyer Data Quality Ranking.csv", row.names = FALSE)
 }

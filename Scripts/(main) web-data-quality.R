@@ -13,7 +13,7 @@
       setwd("./Scripts")
       
             source("build-web-product-data.R")  
-            source("data-quality-functions.R")
+            source("tidy-attributes.R")
             source("score-product-data-quality.R")
             source("build-output-files.R")      
             source("export-output-files.R")
@@ -37,7 +37,7 @@
 
 # Check attributes for completeness
 # Default attribute values to NA if they are not required
-# Source:  data-quality-functions  
+# Source:  tidy-attributes 
       
       attribute <- unique(web.attribute$Attribute)
       
@@ -47,7 +47,6 @@
             default.redundant.attribute(attribute[i])
       }
 
-
 # Score products with data quality scores
 # Source:  score-product-data-quality
       
@@ -55,12 +54,13 @@
  
 # Summarise Performance
       
-      summarise.results()
+      dq.summarise.results()
       
 # Export Web Data Files
       
-      #export.files()
+      export.product.files()
 
 # Tidy up the environment
       
-      rm(list=ls()[! ls() %in% c("web.product.data")])     
+      score.files <- ls(pattern = ".score")
+      rm(list=ls()[! ls() %in% c("web.product.data",score.files)])     

@@ -1,48 +1,52 @@
-#  Outputs each Asst Buyer's articles
+#  Outputs each Asst Buyer's web articles
 
-output.buyer.lists <- function() {
+output.buyer.list <- function() {
 
 all.buyers <- unique(web.product.data$`Asst Buyer`)
 
 for (i in 1:length(all.buyers)) {
       
       buyer <- all.buyers[i]
-      product.list.name <- paste(buyer, " Web Products",".csv",sep = "")
+      buyer.list.name <- paste(buyer, " Web Products",".csv",sep = "")
       
-      column.list <-c(1,2,6,7,8,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51)
-
-
-      product.list <- subset(web.product.data,web.product.data$`Asst Buyer`== buyer)
-      product.list <- product.list[column.list]
-      product.list <- product.list[order(product.list[1]),]
+      attribute.list <- c("Brand","Size","Colour","Pack Qty","Material","Assembly","Washable","Power",
+                          "Capacity","Coverage","Age","Model Number")
       
-      write.csv(product.list,product.list.name,row.names = FALSE)
+      buyer.list <- subset(web.product.data,web.product.data$`Asst Buyer`== buyer)
+      buyer.list <- buyer.list[,c("PSA_1","PSA_2","Article","Web Description",attribute.list,"DQ Score")]
+      buyer.list <- buyer.list[order(buyer.list[,1],buyer.list[,2],buyer.list[,5]),]
+      
+      #--Remove any columns that are all NA
+      buyer.list <- buyer.list[,colSums(is.na(buyer.list)) < nrow(buyer.list)]
+      
+      write.csv(buyer.list,buyer.list.name,row.names = FALSE)
       
       }
 
 }
 
-#  Outputs each Supplier's articles
+#  Outputs each Supplier's web articles
 
-output.supplier.lists <- function() {
+output.supplier.list <- function() {
       
       all.suppliers <- unique(web.product.data$Supplier)
       
       for (i in 1:length(all.suppliers)) {
             
             supplier <- all.suppliers[i]
-            product.list.name <- paste(supplier, " Web Products",".csv",sep = "")
+            supplier.list.name <- paste(supplier, " Web Products",".csv",sep = "")
             
-            column.list <- c(1,2,6,7,8,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51)
+            attribute.list <- c("Brand","Size","Colour","Pack Qty","Material","Assembly","Washable","Power",
+                                "Capacity","Coverage","Age","Model Number")
             
-            product.list <- subset(web.product.data,web.product.data$Supplier == supplier)
-            product.list <- product.list[column.list]
-            product.list <- product.list[order(product.list[1]),]
+            supplier.list <- subset(web.product.data,web.product.data$Supplier == supplier)
+            supplier.list <- supplier.list[,c("PSA_1","PSA_2","Article","Web Description",attribute.list,"DQ Score")]
+            supplier.list <- supplier.list[order(supplier.list[,1],supplier.list[,2],supplier.list[,5]),]
             
             #--Remove any columns that are all NA
-            product.list <- product.list[,colSums(is.na(product.list)) < nrow(product.list)]
+            supplier.list <- supplier.list[,colSums(is.na(supplier.list)) < nrow(supplier.list)]
             
-            write.csv(product.list,product.list.name,row.names = FALSE)
+            write.csv(supplier.list,supplier.list.name,row.names = FALSE)
             
       }
       
@@ -51,63 +55,40 @@ output.supplier.lists <- function() {
 
 #  Outputs each Brand's articles
 
-output.brand.lists <- function() {
+output.brand.list <- function() {
       
       all.brands <- unique(web.product.data$Brand)
       
       for (i in 1:length(all.brands)) {
             
             brand <- all.brands[i]
-            product.list.name <- paste(brand, " Web Products",".csv",sep = "")
+            brand.list.name <- paste(brand, " Web Products",".csv",sep = "")
             
-            column.list <- c(1,2,6,7,8,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51)
+            attribute.list <- c("Brand","Size","Colour","Pack Qty","Material","Assembly","Washable","Power",
+                                "Capacity","Coverage","Age","Model Number")
             
-            product.list <- subset(web.product.data,web.product.data$Brand == brand)
-            product.list <- product.list[column.list]
-            product.list <- product.list[order(product.list[1]),]
+            brand.list <- subset(web.product.data,web.product.data$Brand == brand)
+            brand.list <- brand.list[,c("PSA_1","PSA_2","Article","Web Description",attribute.list,"DQ Score")]
+            brand.list <- brand.list[order(brand.list[,1],brand.list[,2],brand.list[,5]),]
             
             #--Remove any columns that are all NA
-            product.list <- product.list[,colSums(is.na(product.list))<nrow(product.list)]
+            brand.list <- brand.list[,colSums(is.na(brand.list)) < nrow(brand.list)]
             
-            write.csv(product.list,product.list.name,row.names = FALSE)
+            write.csv(brand.list,brand.list.name,row.names = FALSE)
             
       }
       
 }
 
+# ---------------------------------------------------------------------------------------------------------------------------------------
 
-#  Outputs Web Category lists
-
-output.web.cat.lists <- function() {
-      
-      all.categories <- unique(web.product.data$`Web Category`)
-      
-      for (i in 1:length(all.categories)) {
-            
-            category <- all.categories[i]
-            product.list.name <- paste(category, ".csv",sep = "")
-            
-            column.list <- c(1,2,6,7,36,37,38,39,40,41,42,43,44,45,46,47,48,49,53)
-            
-            product.list <- subset(web.product.data,web.product.data$`Web Category` == category)
-            product.list <- product.list[column.list]
-            product.list <- product.list[order(product.list[1]),]
-            
-            #--Remove any columns that are all NA
-            product.list <- product.list[,colSums(is.na(product.list))<nrow(product.list)]
-            
-            #dir.create(product.list.name,showWarnings = FALSE)
-            #setwd(product.list.name)
-            write.csv(product.list,product.list.name,row.names = FALSE)
-            #setwd("..")
-      }
-      
-}
-
+# Create two sets of data for cleansing
+# Missing Web Descriptions by PSA1 for PDT
+# Web Category Cleanse for Digital Trading
 
 #  Outputs articles with missing web descriptions by PSA1 
 
-output.psa1.missing.web.lists <- function() {
+output.web.description.cleanse <- function() {
       
       all.psa1 <- unique(web.product.data$PSA_1)
       
@@ -117,20 +98,21 @@ output.psa1.missing.web.lists <- function() {
             
             column.list <- c(1,2,4:9,12)
             
-            product.list <- subset(web.product.data,web.product.data$'PSA_1' == psa1 && web.product.data$`Web Description 1`=="" )
-            product.list <- product.list[column.list]
-            product.list <- product.list[order(product.list[1]),]
+            web.description.list <- subset(web.product.data,web.product.data$'PSA_1' == psa1 & web.product.data$`Web Description 1`=="" )
+            web.description.list <- web.description.list[,c("PSA_1","PSA_2","Article","Article Description","Web Description 1","Web Description 2","DQ Score")]
+            web.description.list <- web.description.list[order(web.description.list[,1],web.description.list[,2],web.description.list[,4]),]
+            web.description.list <- web.description.list[order(web.description.list[1]),]
             
-            cases <- NROW(product.list)
-            product.list.name <- paste(psa1, " Missing 100 Character Description", " - (",cases," Articles)",".csv",sep = "")
+            cases <- NROW(web.description.list)
+            web.description.list.name <- paste(psa1, " Missing 100 Character Description", " - (",cases," Articles)",".csv",sep = "")
             
-            write.csv(product.list,product.list.name,row.names = FALSE)
+            write.csv(web.description.list,web.description.list.name,row.names = FALSE)
             
       }
       
 }
 
-output.web.dq.reports <- function() {
+output.web.category.cleanse <- function() {
       
       all.categories <- unique(web.product.data$`Web Category`)
       attribute.list <- c("Brand","Size","Colour","Pack Qty","Material","Assembly","Washable","Power","Capacity","Coverage","Age","Model Number")
@@ -139,7 +121,6 @@ output.web.dq.reports <- function() {
       for (i in 1:length(all.categories)) {
             
             category <- all.categories[i]
-            message(category)
             dir.create(category,showWarnings = FALSE)
             setwd(category)
             
@@ -203,55 +184,63 @@ output.web.dq.reports <- function() {
       
 }
 
+# ---------------------------------------------------------------------------------------------------------------------------------------
 
-summarise.psa1 <- function() {
+# Create summary files of DQ Score
+# Grouping: PSA1, PSA2, Assistant Buyer, Web Category
+
+dq.summarise.psa2 <- function() {
       
-      psa1.rank <<- aggregate(web.product.data$`DQ Score`,list(web.product.data$PSA_1),mean)
-      colnames(psa1.rank) <<- c("PSA 1","Avg Data Quality Score")
-      psa1.rank$'Avg Data Quality Score' <<- signif(psa1.rank$'Avg Data Quality Score',2)
-      
-}
-
-#------------------------------------------------------------------------------------------------------------------
-
-summarise.psa2 <- function() {
-      
-      psa2.rank <<- aggregate(web.product.data$`DQ Score`,list(web.product.data$PSA_2),mean)
-      colnames(psa2.rank) <<- c("PSA 2","Avg Data Quality Score")
-      psa2.rank$'Avg Data Quality Score' <<- signif(psa2.rank$'Avg Data Quality Score',2) 
-}
-
-#------------------------------------------------------------------------------------------------------------------
-
-summarise.asst.buyer <- function() {
-      
-      asst.buyer <<- aggregate(web.product.data$`DQ Score`,list(web.product.data$`Asst Buyer`),mean)
-      asst.buyer <<- cbind(asst.buyer,aggregate(web.product.data$`DQ Score`,list(web.product.data$`Asst Buyer`),length))
-      asst.buyer <<- asst.buyer[,c(1,2,4)]
-      colnames(asst.buyer) <<- c("Assistant Buyer","Avg Data Quality Score", "Num Articles")
-      asst.buyer$'Avg Data Quality Score' <<- signif(asst.buyer$'Avg Data Quality Score',2) 
+      psa2.score <- aggregate(web.product.data$`DQ Score`,list(web.product.data$PSA_2),mean)
+      psa2.score <- cbind(psa2.score,aggregate(web.product.data$`DQ Score`,list(web.product.data$PSA_2),length))
+      psa2.score <- psa2.score[,c(1,2,4)]
+      colnames(psa2.score) <- c("PSA 2","Mean DQ Score", "Num Articles")
+      psa2.score$'Mean DQ Score' <- signif(psa2.score$'Mean DQ Score',2) 
+      psa2.score <<- psa2.score[order(-psa2.score$`Mean DQ Score`),]
       
 }
 
 #------------------------------------------------------------------------------------------------------------------
 
-summarise.web.category <- function() {
+dq.summarise.psa1 <- function() {
       
-      web.category <<- aggregate(web.product.data$`DQ Score`,list(web.product.data$`Web Category`),mean)
-      web.category <<- cbind(web.category,aggregate(web.product.data$`DQ Score`,list(web.product.data$`Web Category`),length))
-      web.category <<- web.category[,c(1,2,4)]
-      colnames(web.category) <<- c("Web Category","Avg Data Quality Score", "Num Articles")
-      web.category$'Avg Data Quality Score' <<- signif(web.category$'Avg Data Quality Score',2) 
-      
+      psa1.score <- aggregate(web.product.data$`DQ Score`,list(web.product.data$PSA_1),mean)
+      psa1.score <- cbind(psa1.score,aggregate(web.product.data$`DQ Score`,list(web.product.data$PSA_1),length))
+      psa1.score <- psa1.score[,c(1,2,4)]
+      colnames(psa1.score) <- c("PSA 1","Mean DQ Score", "Num Articles")
+      psa1.score$'Mean DQ Score' <- signif(psa1.score$'Mean DQ Score',2) 
+      psa1.score <<- psa1.score[order(-psa1.score$`Mean DQ Score`),]
 }
 
 #------------------------------------------------------------------------------------------------------------------
 
-summarise.results <- function() {
+dq.summarise.buyer <- function() {
       
-      summarise.psa1()
-      summarise.psa2()
-      summarise.asst.buyer()
-      summarise.web.category()
+      buyer.score <- aggregate(web.product.data$`DQ Score`,list(web.product.data$`Asst Buyer`),mean)
+      buyer.score <- cbind(buyer.score,aggregate(web.product.data$`DQ Score`,list(web.product.data$`Asst Buyer`),length))
+      buyer.score <- buyer.score[,c(1,2,4)]
+      colnames(buyer.score) <- c("Assistant Buyer","Mean DQ Score", "Num Articles")
+      buyer.score$'Mean DQ Score' <- signif(buyer.score$'Mean DQ Score',2) 
+      buyer.score <<- buyer.score[order(-buyer.score$`Mean DQ Score`),]
+}
+#------------------------------------------------------------------------------------------------------------------
+
+dq.summarise.web.category <- function() {
+      
+      web.category.score <- aggregate(web.product.data$`DQ Score`,list(web.product.data$`Web Category`),mean)
+      web.category.score <- cbind(web.category.score,aggregate(web.product.data$`DQ Score`,list(web.product.data$`Web Category`),length))
+      web.category.score <- web.category.score[,c(1,2,4)]
+      colnames(web.category.score) <- c("Web Category","Mean DQ Score", "Num Articles")
+      web.category.score$'Mean DQ Score' <- signif(web.category.score$'Mean DQ Score',2) 
+      web.category.score <<- web.category.score[order(-web.category.score$`Mean DQ Score`),]
+}
+#------------------------------------------------------------------------------------------------------------------
+
+dq.summarise.results <- function() {
+      
+      dq.summarise.psa1()
+      dq.summarise.psa2()
+      dq.summarise.buyer()
+      dq.summarise.web.category()
       
 }
