@@ -128,6 +128,10 @@ merge.web.data <- function() {
       web.product.data$`PDT`<<- psa.owner[match(web.product.data$'PSA Key',psa.owner$'PSA Key'),4]
       web.product.data$`Web Trading`<<- psa.owner[match(web.product.data$'PSA Key',psa.owner$'PSA Key'),5]
       
+      # Create a single Web Description field
+      
+      web.product.data$'Web Description' <- paste(web.product.data[,4],web.product.data[,5], sep = "")
+
 # Check for undefined web categories i.e. no attribute template
       
       defined.web.category <<- unique(web.attribute$Category)
@@ -137,6 +141,6 @@ merge.web.data <- function() {
       
 # Reorder columns and tidy up
       
-      web.product.data <<- web.product.data[,c(1,2,12,4,5,10,11,14,6,7,13,8,34,35,36,37,16,17,15,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33)]
+      web.product.data <<- web.product.data[,c(1,2,12,4,5,39,10,11,14,6,7,13,8,34,35,36,37,16,17,15,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33)]
 
 }

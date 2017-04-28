@@ -146,7 +146,6 @@ output.web.dq.reports <- function() {
 #  Create Output file for products in category that currently score 100%
             
             web.complete <- subset(web.product.data,web.product.data$`DQ Score` == 100 & web.product.data$`Web Category` == category)
-            web.complete$'Web Description' <- paste(web.complete[,4],web.complete[,5], sep = "")
             column.list <- c("Article","Web Description",attribute.list,"DQ Score")
             web.complete <- web.complete[column.list]
             
@@ -160,7 +159,7 @@ output.web.dq.reports <- function() {
             
 #  Create Output file for products in category that are missing a Web Description
             
-            web.missing.description <- subset(web.product.data, is.na(web.product.data$`DQ Web Description Score`) & web.product.data$`Web Category` == category)
+            web.missing.description <- subset(web.product.data, web.product.data$`DQ Web Description Score` == 0 & web.product.data$`Web Category` == category)
             column.list <- c("Article","Article Description","Web Description 1", "Web Description 2","DQ Score")
             web.missing.description <- web.missing.description[column.list]
             
@@ -173,7 +172,6 @@ output.web.dq.reports <- function() {
 #  Create Output file for products in category that are missing Product Attribute values
              
             web.missing.attribute <- subset(web.product.data, web.product.data$`DQ Attribute Score` < 3.5 & web.product.data$`Web Category` == category)
-            web.missing.attribute$'Web Description' <- paste(web.missing.attribute[,4],web.missing.attribute[,5], sep = "")
             attribute.list <- subset(web.attribute$Attribute,web.attribute$Category == category)
             column.list <- c("Article","Web Description",attribute.list,"DQ Score")
             web.missing.attribute <- web.missing.attribute[column.list]

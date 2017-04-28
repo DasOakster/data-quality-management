@@ -10,7 +10,7 @@ score.data.quality <- function() {
 # The DQ Attribute fields have already been set to either 1: Populated, 0: Empty, NA: Not required
 # Divides the attribute weight by the number of attributes required to calculate a score for each individual attribute
 
-      dq.attribute.fields <- c(36:48)
+      dq.attribute.fields <- c(37:49)
       
       attribute.required <- rowSums(!is.na(web.product.data[dq.attribute.fields]))
       
@@ -25,7 +25,7 @@ score.data.quality <- function() {
       
 # Check 100 Character Field
       
-      web.product.data$'DQ Web Description Score' <<- NA
+      web.product.data$'DQ Web Description Score' <<- 0
       web.product.data$'DQ Web Description Score'[web.product.data$`Web Description 1`!=""] <<- web.description.score
       
 # Set Score field to Zero
@@ -40,3 +40,6 @@ score.data.quality <- function() {
       web.product.data$`DQ Score` <<- signif(web.product.data$`DQ Score`,2)
       web.product.data$`DQ Score` <<- web.product.data$`DQ Score` * 10
 }
+
+
+
