@@ -28,7 +28,7 @@ import.web.data <- function() {
       sap.product.extract$PSA_2 <<- substr(sap.product.extract$`Hierarchy Node`,4,6)
       
 
-# Read in the PSA Owner file
+# Read in the PSA Owner file and create a match by joining the PSA1 and PSA2 together
       
       psa.owner <<- read.csv("PSA Responsibility.csv",sep = ",",stringsAsFactors = FALSE, header = TRUE)
       psa.owner$'PSA Key' <<- paste(psa.owner$PSA_1,psa.owner$PSA_2,sep = "")
@@ -44,7 +44,7 @@ import.web.data <- function() {
 
 tidy.web.data <- function() {
       
-# Remove Illegal Characters from the 'Supplier Name' in SAP
+# Remove illegal characters from the 'Supplier Name' in SAP
       
       sap.product.extract$Supplier <<- gsub("\\*","",sap.product.extract$Supplier)
       sap.product.extract$Supplier <<- gsub("\\/","",sap.product.extract$Supplier)
@@ -52,6 +52,7 @@ tidy.web.data <- function() {
 # Default any missing Web Categories to 'Missing'
       
       google.product.feed$`Web Category`[is.na(google.product.feed$`Web Category`)] <<- "Missing"
+      google.product.feed$`Web Category`[google.product.feed$`Web Category` == "0"] <<- "Missing"
 
 # Subset the Google Product feed to just 'Published' articles, drop off last column and remove '?' from brand name      
       
@@ -59,7 +60,6 @@ tidy.web.data <- function() {
       published.article <<- subset(published.article,select = c(1:24))
       published.article$Brand <<- gsub("\\?","",published.article$Brand)       
       
-
 # Convert vectors holding article numbers to Data Frames for the Inner Join ensuring they are all character fields for matching
       
       # Create a data frame to hold the article numbers of the published web products
@@ -72,7 +72,6 @@ tidy.web.data <- function() {
       sap.article <<- data.frame(sap.product.extract$Article,stringsAsFactors = FALSE)
       colnames(sap.article) <<- "Article"
       sap.article$Article <<- sapply(sap.article$Article, as.character)
-      
       
       # Create a data frame to hold the article numbers of the old AS400 products
       
@@ -95,7 +94,6 @@ merge.web.data <- function() {
       secondary.match <<- inner_join(unmatched,as400.article)
       unmatched <<- anti_join(unmatched,as400.article)
       
-
 # Create the web.product.data combining the Google Feed and the SAP extract
       
       # Subset the SAP data based on the primary and secondary matching
@@ -140,7 +138,5 @@ merge.web.data <- function() {
 # Reorder columns and tidy up
       
       web.product.data <<- web.product.data[,c(1,2,12,4,5,10,11,14,6,7,13,8,34,35,36,37,16,17,15,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33)]
-      
-      #rm(list=ls()[! ls() %in% c("web.product.data")]) 
-      
+
 }
