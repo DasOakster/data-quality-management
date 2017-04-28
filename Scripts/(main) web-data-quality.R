@@ -8,16 +8,15 @@
 
       library(dplyr)
 
-      setwd("C:/Users/oakleya/Desktop/R Projects/data-quality-management")     # Wilko laptop
+      setwd("C:/Users/oakleya/Desktop/R Projects/data-quality-management")
       
       setwd("./Scripts")
       
-            source("create-web-product-data.R")  
+            source("build-web-product-data.R")  
             source("data-quality-functions.R")
             source("score-product-data-quality.R")
-            source("summarise-results.R")
-            source("create-product-files.R")      
-            source("export-files.R")
+            source("build-output-files.R")      
+            source("export-output-files.R")
       
       setwd("..")
       
