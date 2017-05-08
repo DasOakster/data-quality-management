@@ -49,8 +49,16 @@ export.product.files <- function() {
       
       message("Outputting Missing Web Descriptions")
       setwd("./Missing Web Description")
-      output.web.description.cleanse
+      output.web.description.cleanse()
       setwd("..")
 #---------------------------------------------------------------------------------------------------------------------------------------
+      
+# Output the Report Data File
+      
+      message("Outputting Report Data")
+      setwd("./Report Data")
+      report.web.product.data()
+      setwd("..")
+      
       
 }

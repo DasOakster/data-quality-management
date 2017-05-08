@@ -120,7 +120,9 @@ output.web.category.cleanse <- function() {
       
       for (i in 1:length(all.categories)) {
             
+            
             category <- all.categories[i]
+            message(category)
             dir.create(category,showWarnings = FALSE)
             setwd(category)
             
@@ -242,5 +244,21 @@ dq.summarise.results <- function() {
       dq.summarise.psa2()
       dq.summarise.buyer()
       dq.summarise.web.category()
+      
+}
+
+report.web.product.data <- function(){
+      
+      report.columns <- c("Article","Article Description","Web Description","PSA_1", "PSA_2","Web Category",
+                          "Asst Buyer","PDT","Web Trading","Status","Supplier","Brand","Type",
+                          "DQ Web Description Score","DQ Brand Consistency Score","DQ Attribute Score","DQ Score")
+      
+      report.data <<- web.product.data[,report.columns]
+      
+      # Create reporting category for Web Description
+      
+      report.data$`Web Missing` <<- ifelse(report.data$`DQ Web Description Score` == 0, TRUE, FALSE)
+      
+      write.csv(report.data,"Web Product Report Data.csv", row.names = FALSE)
       
 }

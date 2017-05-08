@@ -21,7 +21,7 @@ score.web.description <- function(description.weight) {
       
       # Check 100 Character Field is populated
       
-      web.product.data$'DQ Web Description Score' <- 0
+      web.product.data$'DQ Web Description Score' <<- 0
       web.product.data$'DQ Web Description Score'[web.product.data$`Web Description 1`!=""] <<- description.weight      
       
 }
@@ -65,9 +65,9 @@ score.data.quality <- function() {
 
 # Run the Score functions
       
-      score.web.description(6.5)
-      score.web.attribute(3.5)
-      score.brand.consistency(-0.5)
+      score.web.description(0.65)
+      score.web.attribute(0.35)
+      score.brand.consistency(-0.05)
       
 # Set Score field to Zero
       
@@ -79,9 +79,9 @@ score.data.quality <- function() {
       
 # Sum the rows, round to 2 dp and multiply by 10 to get a score out of 100
       
-      web.product.data$`DQ Score` <- rowSums(web.product.data[,dq.score.columns],na.rm = TRUE)
-      web.product.data$`DQ Score` <- signif(web.product.data$`DQ Score`,2)
-      web.product.data$`DQ Score` <<- web.product.data$`DQ Score` * 10
+      web.product.data$`DQ Score` <<- rowSums(web.product.data[,dq.score.columns],na.rm = TRUE)
+      #web.product.data$`DQ Score` <- signif(web.product.data$`DQ Score`,2)
+      #web.product.data$`DQ Score` <<- web.product.data$`DQ Score` * 10
 }
 
 
