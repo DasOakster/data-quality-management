@@ -59,6 +59,13 @@ score.brand.consistency <- function(brand.weight){
       }
 }
 
+score.gtin.issue <- function(gtin.weight) {
+      
+      web.product.data$'DQ GTIN Score' <<- 0
+      web.product.data$'DQ GTIN Score'[(web.product.data$Article %in% gtin.issue$Article)] <<- gtin.weight
+      
+}
+
 #-----------------------------------------------------------------------------------------------------------------------------------------
 
 score.data.quality <- function() {
@@ -68,6 +75,7 @@ score.data.quality <- function() {
       score.web.description(0.65)
       score.web.attribute(0.35)
       score.brand.consistency(-0.05)
+      score.gtin.issue(-0.05)
       
 # Set Score field to Zero
       
@@ -75,7 +83,7 @@ score.data.quality <- function() {
 
 # Add the two components of the score together and round to 1 decimal place
       
-      dq.score.columns <- c("DQ Web Description Score","DQ Attribute Score","DQ Brand Consistency Score")
+      dq.score.columns <- c("DQ Web Description Score","DQ Attribute Score","DQ Brand Consistency Score","DQ GTIN Score")
       
 # Sum the rows, round to 2 dp and multiply by 10 to get a score out of 100
       

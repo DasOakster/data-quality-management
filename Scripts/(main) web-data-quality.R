@@ -1,4 +1,3 @@
-a <- 
 # Main Program v1.0
 # See ReadMe for details
 
@@ -63,4 +62,4 @@ a <-
 # Tidy up the environment
       
       score.files <- ls(pattern = ".score")
-      rm(list=ls()[! ls() %in% c("web.product.data","report.data",score.files)])     
+      rm(list=ls()[! ls() %in% c("web.product.data","report.data","gtin.issue",score.files)])     
