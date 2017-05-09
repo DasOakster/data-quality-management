@@ -167,7 +167,7 @@ output.web.category.cleanse <- function() {
 
 #  Create Output file for products in category that have inconsistent branding
             
-            web.inconsistent.brand <- subset(web.product.data, web.product.data$`DQ Brand Consistency Score` == - 0.5 & !is.na(web.product.data$`DQ Web Description Score`) & web.product.data$`Web Category` == category)
+            web.inconsistent.brand <- subset(web.product.data, web.product.data$`DQ Brand Consistency Score` == - 0.05 & !is.na(web.product.data$`DQ Web Description Score`) & web.product.data$`Web Category` == category)
             web.inconsistent.brand$'Web Description' <- paste(web.inconsistent.brand[,4],web.inconsistent.brand[,5], sep = "")
             column.list <- c("Article","Web Description","Brand","DQ Score")
             web.inconsistent.brand <- web.inconsistent.brand[column.list]
@@ -178,6 +178,18 @@ output.web.category.cleanse <- function() {
             
             if(NROW(web.inconsistent.brand) > 0) write.csv(web.inconsistent.brand,paste(category, " Inconsistent Brand"," (",cases," Articles)",".csv",sep = ""), row.names = FALSE)         
             
+            
+#  Create Output file for products in category that have a GTIN issue
+            
+            web.gtin.issue <- subset(web.product.data, web.product.data$`DQ GTIN Score` == - 0.05 & web.product.data$`Web Category` == category)
+            column.list <- c("Article","Web Description","DQ Score")
+            web.gtin.issue <- web.gtin.issue[column.list]
+            
+            # Remove any columns that are all NA and sort by Brand
+            cases <- NROW(web.gtin.issue)
+            #web.gtin.issue <- web.gtin.issue[,colSums(is.na(web.gtin.issue)) < nrow(web.gtin.issue)]
+            
+            if(NROW(web.gtin.issue) > 0) write.csv(web.gtin.issue,paste(category, " GTIN Issue"," (",cases," Articles)",".csv",sep = ""), row.names = FALSE)         
             
             setwd("..")
 
@@ -251,13 +263,14 @@ report.web.product.data <- function(){
       
       report.columns <- c("Article","Article Description","Web Description","PSA_1", "PSA_2","Web Category",
                           "Asst Buyer","PDT","Web Trading","Status","Supplier","Brand","Type",
-                          "DQ Web Description Score","DQ Brand Consistency Score","DQ Attribute Score","DQ Score")
+                          "DQ Web Description Score","DQ Brand Consistency Score","DQ Attribute Score","DQ GTIN Score","DQ Score")
       
       report.data <<- web.product.data[,report.columns]
       
       # Create reporting category for Web Description
       
       report.data$`Web Missing` <<- ifelse(report.data$`DQ Web Description Score` == 0, TRUE, FALSE)
+      report.data$`GTIN Issue` <<- ifelse(report.data$`DQ GTIN Score` != 0, TRUE, FALSE)
       
       write.csv(report.data,"Web Product Report Data.csv", row.names = FALSE)
       

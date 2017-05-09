@@ -1,5 +1,5 @@
 #--This script creates three functions: import.web.data; tidy.web.data; merge.web.data
-#--4 files are imported:  Google Product Feed, SAP extract, PSA Owner and Web Category to Attribute mapping
+#--5 files are imported:  Google Product Feed, Google Merchant Centre, SAP extract, PSA Owner and Web Category to Attribute mapping
 #--These are imported, tidied up and then merged into a single file 'web.product.data'
 
 
@@ -14,7 +14,12 @@ import.web.data <- function() {
       google.header <- c("Article","Product Name","Publishing Status","Web Category","Type","Brand","Sub Brand","Size","Height","Width","Depth","Colour","Colour Family",
                          "Pack Qty","Material","Assembly","Washable","Power","Capacity","Coverage","Diameter","Age","Model Number","Supplier Direct")
       colnames(google.product.feed) <<- google.header
+
+# Read in the Google Merchant Centre extract
       
+      google.merchant.centre <<- read.csv("Google Merchant Centre.csv",sep = ",",stringsAsFactors = FALSE)
+      google.merchant.header <- c("Article","Country","Language","Product Title","Issue","Feed Value","Website Value","Sample Time","Disapproval Time","Channel","Source","Additional Information")
+      colnames(google.merchant.centre) <<- google.merchant.header
 
 # Read in the SAP extract
       
@@ -63,6 +68,11 @@ tidy.web.data <- function() {
       published.article <<- subset(google.product.feed,grepl("Published",google.product.feed$`Publishing Status`) == TRUE)
       published.article <<- subset(published.article,select = c(1:24))
       published.article$Brand <<- gsub("\\?","",published.article$Brand)       
+      
+# Subset the Google Merchant Centre to Articles with a GTIN issue and trim leading zeroes from the Article number
+      
+      gtin.issue <<- subset(google.merchant.centre,(google.merchant.centre$Issue %in% c("Item requires a GTIN","GTIN is not associated with this brand","Invalid GTIN value","Reserved range GTIN")))
+      gtin.issue$Article <<- substr(gtin.issue$Article,regexpr("[^0]",gtin.issue$Article),nchar(gtin.issue$Article))
       
 # Convert vectors holding article numbers to Data Frames for the Inner Join ensuring they are all character fields for matching
       
