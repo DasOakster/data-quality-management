@@ -54,9 +54,10 @@ tidy.web.data <- function() {
       sap.product.extract$Supplier <<- gsub("\\*","",sap.product.extract$Supplier)
       sap.product.extract$Supplier <<- gsub("\\/","",sap.product.extract$Supplier)
       
-# Remove illegal characters from the Web Category lable in Google
+# Remove illegal characters and trailing spaces from the Web Category lable in Google
       
       google.product.feed$`Web Category` <<- gsub("\\/","-",google.product.feed$`Web Category`)
+      google.product.feed$`Web Category` <<- gsub(" $","",google.product.feed$`Web Category`)
 
 # Default any missing Web Categories to 'Missing'
       

@@ -5,7 +5,7 @@ export.product.files <- function() {
       
       setwd("..")
       setwd("./Output Files")
-      
+      #setwd("R:/Data Quality Reports/Web Data Quality Reports")
 # Output the lists of unmatched web skus and web skus with missing web descriptions
       
       message("Outputting Web Product File")

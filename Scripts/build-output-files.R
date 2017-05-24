@@ -128,7 +128,7 @@ output.web.category.cleanse <- function() {
             
 #  Create Output file for products in category that currently score 100%
             
-            web.complete <- subset(web.product.data,web.product.data$`DQ Score` == 100 & web.product.data$`Web Category` == category)
+            web.complete <- subset(web.product.data,web.product.data$`DQ Score` == 1 & web.product.data$`Web Category` == category)
             column.list <- c("Article","Web Description",attribute.list,"DQ Score")
             web.complete <- web.complete[column.list]
             
@@ -154,7 +154,7 @@ output.web.category.cleanse <- function() {
             
 #  Create Output file for products in category that are missing Product Attribute values
              
-            web.missing.attribute <- subset(web.product.data, web.product.data$`DQ Attribute Score` < 3.5 & web.product.data$`Web Category` == category)
+            web.missing.attribute <- subset(web.product.data, web.product.data$`DQ Attribute Score` < 0.35 & web.product.data$`Web Category` == category)
             attribute.list <- subset(web.attribute$Attribute,web.attribute$Category == category)
             column.list <- c("Article","Web Description",attribute.list,"DQ Score")
             web.missing.attribute <- web.missing.attribute[column.list]
