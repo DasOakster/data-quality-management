@@ -39,7 +39,7 @@ build.attribute.semantics <- function() {
       for(i in 1:NROW(web.category)) {
             
             web.category.attribute <- subset(attribute.semantics,attribute.semantics$Category == web.category[i])
-            category.file.name <- paste(path,web.category[i],".csv",sep = " ")
+            category.file.name <- paste(path,web.category[i],".csv",sep = "")
             write.csv(web.category.attribute,category.file.name,row.names = FALSE)
       }
 

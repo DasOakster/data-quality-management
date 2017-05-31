@@ -271,6 +271,7 @@ report.web.product.data <- function(){
       
       report.data$`Web Missing` <<- ifelse(report.data$`DQ Web Description Score` == 0, TRUE, FALSE)
       report.data$`GTIN Issue` <<- ifelse(report.data$`DQ GTIN Score` != 0, TRUE, FALSE)
+      report.data$'Attribute Completion %' <<- report.data$`DQ Attribute Score` / 0.35
       
       write.csv(report.data,"Web Product Report Data.csv", row.names = FALSE)
       
