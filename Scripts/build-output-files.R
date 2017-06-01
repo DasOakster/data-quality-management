@@ -276,3 +276,8 @@ report.web.product.data <- function(){
       write.csv(report.data,"Web Product Report Data.csv", row.names = FALSE)
       
 }
+
+report.web.product.data.stamped <- function(){
+      
+      write.csv(report.data,paste("Web Product Report Data_",Sys.Date(),".csv",sep = ""), row.names = FALSE)
+}

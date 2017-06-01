@@ -58,7 +58,8 @@ export.product.files <- function() {
       message("Outputting Report Data")
       setwd("./Report Data")
       report.web.product.data()
-      setwd("..")
+      setwd("./Date Stamp Files")
+      report.web.product.data.stamped()
       
       
 }
