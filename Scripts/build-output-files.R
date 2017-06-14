@@ -122,7 +122,6 @@ output.web.category.cleanse <- function() {
             
             
             category <- all.categories[i]
-            message(category)
             dir.create(category,showWarnings = FALSE)
             setwd(category)
             

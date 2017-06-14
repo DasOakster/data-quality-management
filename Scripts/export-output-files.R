@@ -20,16 +20,22 @@ export.product.files <- function() {
 # Output the product attribute lists at Asst Buyer, Supplier and Brand levels
       
       message("Outputting Buyer Lists")
+      unlink("Assistant Buyer",recursive = TRUE)
+      dir.create("Assistant Buyer",showWarnings = FALSE)
       setwd("./Assistant Buyer")
       output.buyer.list()
       setwd("..")
       
       message("Outputting Supplier Lists")
+      unlink("Supplier",recursive = TRUE)
+      dir.create("Supplier",showWarnings = FALSE)
       setwd("./Supplier")
       output.supplier.list()
       setwd("..")
       
       message("Outputting Brand Lists")
+      unlink("Brand",recursive = TRUE)
+      dir.create("Brand",showWarnings = FALSE)
       setwd("./Brand")
       output.brand.list()
       setwd("..")
@@ -41,6 +47,8 @@ export.product.files <- function() {
 # Output the Web Data Quality Lists for Cleansing
       
       message("Outputting Web Category Lists")
+      unlink("Web Category",recursive = TRUE)
+      dir.create("Web Category",showWarnings = FALSE)
       setwd("./Web Category")
       output.web.category.cleanse()
       setwd("..")
@@ -48,8 +56,19 @@ export.product.files <- function() {
 # Output the Missing Web Descriptions at PSA 1 Level
       
       message("Outputting Missing Web Descriptions")
+      unlink("Missing Web Description",recursive = TRUE)
+      dir.create("Missing Web Description",showWarnings = FALSE)
       setwd("./Missing Web Description")
       output.web.description.cleanse()
+      setwd("..")
+      
+# Output the PSA Level Files
+      
+      message("Outputting PSA Lists")
+      unlink("PSA",recursive = TRUE)
+      dir.create("PSA",showWarnings = FALSE)
+      setwd("./PSA")
+      output.psa.cleanse()
       setwd("..")
 #---------------------------------------------------------------------------------------------------------------------------------------
       

@@ -14,7 +14,8 @@
             source("build-web-product-data.R")  
             source("tidy-attributes.R")
             source("score-product-data-quality.R")
-            source("build-output-files.R")      
+            source("build-output-files.R") 
+            source("build-psa-files.R")
             source("export-output-files.R")
       
       setwd("..")

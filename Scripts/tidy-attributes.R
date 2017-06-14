@@ -23,7 +23,7 @@ check.missing <- function(attribute) {
       
       # Create the Web Category look-up table i.e. the web catgories requiring this attribute
       
-      web.category <- subset(web.attribute,web.attribute[,1] == attribute)
+      web.category <- subset(web.attribute,web.attribute[,3] == attribute)
       
       # Create a missing.attributeorary table of the Articles to update
       
@@ -49,7 +49,7 @@ default.redundant.attribute <- function(attribute) {
       
       # Create a list of Web Categories that do not require a value
       
-      web.category.attribute <- subset(web.attribute,web.attribute[,1] == attribute)
+      web.category.attribute <- subset(web.attribute,web.attribute[,3] == attribute)
       web.category <- web.attribute[!(web.attribute$Category %in% web.category.attribute$Category),]
       web.category <- data.frame(unique(web.category$Category),stringsAsFactors = FALSE)
       colnames(web.category) <- "Category"
