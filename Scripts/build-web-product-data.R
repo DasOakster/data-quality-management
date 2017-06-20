@@ -23,7 +23,7 @@ import.web.data <- function() {
 
 # Read in the SAP extract
       
-      sap.product.extract <<- read.csv("SAP Web Product Descriptions.csv",sep = ",",stringsAsFactors = FALSE)
+      sap.product.extract <<- read.csv("SAP Web Product Data.csv",sep = ",",stringsAsFactors = FALSE)
       sap.header <- c("Article","Article Description","Hierarchy Node","Web Description 1","Web Description 2","Status","Old Article Number","Supplier","Current Supplier")
       colnames(sap.product.extract) <<- sap.header
       
