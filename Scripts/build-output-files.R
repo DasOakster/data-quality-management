@@ -262,6 +262,8 @@ report.web.product.data <- function(){
       
       report.columns <- c("Article","Article Description","Web Description","PSA_1", "PSA_2","Web Category",
                           "Asst Buyer","PDT","Web Trading","Status","Supplier","Brand","Type",
+                          "DQ Brand","DQ Type","DQ Colour","DQ Size","DQ Assembly","DQ Material","DQ Pack Qty",
+                          "DQ Power","DQ Age","DQ Washable","DQ Coverage","DQ Model Number","DQ Capacity",
                           "DQ Web Description Score","DQ Brand Consistency Score","DQ Attribute Score","DQ GTIN Score","DQ Score")
       
       report.data <<- web.product.data[,report.columns]

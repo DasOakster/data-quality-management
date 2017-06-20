@@ -79,6 +79,8 @@ export.product.files <- function() {
       report.web.product.data()
       setwd("./Date Stamp Files")
       report.web.product.data.stamped()
-      
-      
+      setwd("..")
+      setwd("./Attribute Completion")
+      build.psa1.attribute.summary()
+      build.psa2.attribute.summary()
 }
