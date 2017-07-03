@@ -16,6 +16,7 @@
             source("score-product-data-quality.R")
             source("build-output-files.R") 
             source("build-psa-files.R")
+            source("build-attribute-reports.R")
             source("export-output-files.R")
       
       setwd("..")
