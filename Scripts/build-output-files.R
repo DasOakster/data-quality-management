@@ -148,7 +148,7 @@ output.web.category.cleanse <- function() {
             # Remove any columns that are all NA and sort by Brand
             cases <- NROW(web.missing.description)
             web.missing.description <- web.missing.description[,colSums(is.na(web.missing.description)) < nrow(web.missing.description)]
-            if(NROW(web.missing.description) > 0) write.csv(web.missing.description,paste(category, " Missing Description"," (",cases," Articles)",".csv",sep = ""), row.names = FALSE)
+            if(NROW(web.missing.description) > 0) write.csv(web.missing.description,paste(category, " Missing Web Description"," (",cases," Articles)",".csv",sep = ""), row.names = FALSE)
 
             
 #  Create Output file for products in category that are missing Product Attribute values
