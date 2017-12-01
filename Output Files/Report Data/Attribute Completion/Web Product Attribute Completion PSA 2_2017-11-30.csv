@@ -1,0 +1,1292 @@
+"PSA.1","PSA.2","Attribute","Complete %"
+"TOI","MED","DQ Brand",1
+"TOI","MED","DQ Type",1
+"TOI","MED","DQ Colour",0
+"TOI","MED","DQ Size",0.280193236714976
+"TOI","MED","DQ Pack Qty",0.876811594202899
+"TOI","MED","DQ Power",0
+"TOI","SHC","DQ Brand",1
+"TOI","SHC","DQ Type",0.996466431095406
+"TOI","SHC","DQ Colour",0.8
+"TOI","SHC","DQ Size",0.826855123674912
+"TOI","SHC","DQ Pack Qty",0.865248226950355
+"TOI","SHC","DQ Power",0
+"TOI","SHC","DQ Age",0.75
+"TOI","SHC","DQ Model Number",0
+"TOI","MEN","DQ Brand",1
+"TOI","MEN","DQ Type",1
+"TOI","MEN","DQ Colour",0.571428571428571
+"TOI","MEN","DQ Size",0.523012552301255
+"TOI","MEN","DQ Pack Qty",0.895397489539749
+"TOI","MEN","DQ Power",0.0131578947368421
+"TOI","MEN","DQ Model Number",0.0142857142857143
+"TOI","FEM","DQ Brand",1
+"TOI","FEM","DQ Type",1
+"TOI","FEM","DQ Colour",0.576923076923077
+"TOI","FEM","DQ Size",0.616438356164384
+"TOI","FEM","DQ Pack Qty",0.815068493150685
+"TOI","FEM","DQ Power",0
+"TOI","SAN","DQ Brand",1
+"TOI","SAN","DQ Type",1
+"TOI","SAN","DQ Colour",0
+"TOI","SAN","DQ Size",0.145631067961165
+"TOI","SAN","DQ Material",0.14
+"TOI","SAN","DQ Pack Qty",0.893203883495146
+"TOI","SAN","DQ Washable",0
+"TOI","FAC","DQ Brand",1
+"TOI","FAC","DQ Type",1
+"TOI","FAC","DQ Colour",0
+"TOI","FAC","DQ Size",0.825112107623318
+"TOI","FAC","DQ Pack Qty",0.668161434977579
+"TOI","HAI","DQ Brand",1
+"TOI","HAI","DQ Type",1
+"TOI","HAI","DQ Colour",0.62780269058296
+"TOI","HAI","DQ Size",0.0223214285714286
+"TOI","HAI","DQ Assembly",1
+"TOI","HAI","DQ Material",0
+"TOI","HAI","DQ Pack Qty",0.950892857142857
+"TOI","HAI","DQ Capacity",0
+"TOI","DEN","DQ Brand",1
+"TOI","DEN","DQ Type",1
+"TOI","DEN","DQ Colour",0
+"TOI","DEN","DQ Size",0.5
+"TOI","DEN","DQ Pack Qty",1
+"TOI","DEN","DQ Power",0
+"TOI","DEN","DQ Model Number",0
+"TOI","BAT","DQ Brand",1
+"TOI","BAT","DQ Type",1
+"TOI","BAT","DQ Size",0.541353383458647
+"TOI","BAT","DQ Pack Qty",0.62406015037594
+"TOI","SUN","DQ Brand",1
+"TOI","SUN","DQ Type",1
+"TOI","SUN","DQ Size",0.656862745098039
+"TOI","SUN","DQ Pack Qty",0.794117647058823
+"TOI","MON","DQ Brand",1
+"TOI","MON","DQ Type",1
+"TOI","MON","DQ Size",0.411764705882353
+"TOI","MON","DQ Pack Qty",0.529411764705882
+"TOI","HOS","DQ Brand",1
+"TOI","HOS","DQ Type",1
+"TOI","HOS","DQ Colour",0.262295081967213
+"TOI","HOS","DQ Size",0.377049180327869
+"TOI","HOS","DQ Pack Qty",0.934426229508197
+"TOI","HOS","DQ Power",0
+"TOI","FAA","DQ Brand",1
+"TOI","FAA","DQ Type",0.986666666666667
+"TOI","FAA","DQ Colour",0.195488721804511
+"TOI","FAA","DQ Size",0.441379310344828
+"TOI","FAA","DQ Material",1
+"TOI","FAA","DQ Pack Qty",0.951724137931034
+"TOI","FAA","DQ Washable",0
+"TOI","BAB","DQ Brand",1
+"TOI","BAB","DQ Type",1
+"TOI","BAB","DQ Size",0.75
+"TOI","BAB","DQ Pack Qty",0.875
+"TOI","BAB","DQ Age",0
+"TOI","BAN","DQ Brand",1
+"TOI","BAN","DQ Type",1
+"TOI","BAN","DQ Colour",1
+"TOI","BAN","DQ Size",0.313725490196078
+"TOI","BAN","DQ Pack Qty",0.784313725490196
+"TOI","BAN","DQ Age",0
+"TOI","SMO","DQ Brand",1
+"TOI","SMO","DQ Type",1
+"TOI","EYE","DQ Brand",1
+"TOI","EYE","DQ Type",1
+"TOI","EYE","DQ Size",0.107142857142857
+"TOI","EYE","DQ Pack Qty",1
+"TOI","ELE","DQ Brand",1
+"TOI","ELE","DQ Type",1
+"TOI","ELE","DQ Colour",0
+"TOI","ELE","DQ Size",0.357142857142857
+"TOI","ELE","DQ Pack Qty",1
+"TOI","ELE","DQ Power",0.642857142857143
+"TOI","ELE","DQ Model Number",0.846153846153846
+"TOI","PER","DQ Brand",1
+"TOI","PER","DQ Type",1
+"TOI","PER","DQ Colour",0
+"TOI","PER","DQ Size",1
+"TOI","PER","DQ Pack Qty",0.780487804878049
+"TOI","PER","DQ Power",0
+"TOI","PER","DQ Model Number",0
+"TOI","TRA","DQ Brand",1
+"TOI","TRA","DQ Type",1
+"TOI","TRA","DQ Colour",0
+"TOI","TRA","DQ Size",0.606060606060606
+"TOI","TRA","DQ Pack Qty",0.787878787878788
+"TOI","TRA","DQ Power",0
+"TOI","RIM","DQ Brand",1
+"TOI","RIM","DQ Type",0.995433789954338
+"TOI","RIM","DQ Colour",0.621359223300971
+"TOI","RIM","DQ Size",0.533980582524272
+"TOI","RIM","DQ Pack Qty",0.878640776699029
+"TOI","BAC","DQ Brand",1
+"TOI","BAC","DQ Type",1
+"TOI","BAC","DQ Colour",0.666666666666667
+"TOI","BAC","DQ Size",0.545454545454545
+"TOI","BAC","DQ Pack Qty",0.956521739130435
+"TOI","BAC","DQ Power",0
+"TOI","BAC","DQ Age",0.652173913043478
+"TOI","BAC","DQ Washable",0
+"TOI","COL","DQ Brand",1
+"TOI","COL","DQ Type",0.98876404494382
+"TOI","COL","DQ Colour",0.416666666666667
+"TOI","COL","DQ Size",0.636904761904762
+"TOI","COL","DQ Material",0
+"TOI","COL","DQ Pack Qty",0.976190476190476
+"TOI","COL","DQ Power",0
+"TOI","COL","DQ Washable",0
+"TOI","MAY","DQ Brand",1
+"TOI","MAY","DQ Type",1
+"TOI","MAY","DQ Colour",0.524590163934426
+"TOI","MAY","DQ Size",0.401639344262295
+"TOI","MAY","DQ Pack Qty",0.754098360655738
+"TOI","FOO","DQ Brand",1
+"TOI","FOO","DQ Type",1
+"TOI","FOO","DQ Size",0.826923076923077
+"TOI","FOO","DQ Pack Qty",0.653846153846154
+"TOI","FOO","DQ Age",0.134615384615385
+"TOI","FOO","DQ Washable",0
+"TOI","MAX","DQ Brand",1
+"TOI","MAX","DQ Type",1
+"TOI","MAX","DQ Colour",0.5625
+"TOI","MAX","DQ Size",0.5
+"TOI","MAX","DQ Pack Qty",0.6875
+"TOI","ACB","DQ Brand",1
+"TOI","ACB","DQ Type",1
+"TOI","ACB","DQ Colour",0
+"TOI","ACB","DQ Size",0.133333333333333
+"TOI","ACB","DQ Pack Qty",0.6875
+"TOI","ACB","DQ Power",0
+"TOI","ACB","DQ Age",0
+"TOI","CRE","DQ Brand",1
+"TOI","CRE","DQ Type",1
+"TOI","CRE","DQ Colour",0.0202020202020202
+"TOI","CRE","DQ Size",0.95959595959596
+"TOI","CRE","DQ Pack Qty",0.888888888888889
+"TOI","COS","DQ Brand",1
+"TOI","COS","DQ Type",1
+"TOI","COS","DQ Colour",0.201520912547529
+"TOI","COS","DQ Size",0.23574144486692
+"TOI","COS","DQ Pack Qty",1
+"TOI","SPC","DQ Brand",1
+"TOI","SPC","DQ Type",1
+"TOI","SPC","DQ Size",0
+"TOI","SPC","DQ Pack Qty",1
+"TOI","FRU","DQ Brand",1
+"TOI","FRU","DQ Type",1
+"TOI","FRU","DQ Colour",0
+"TOI","FRU","DQ Size",0.864864864864865
+"TOI","FRU","DQ Pack Qty",0.972222222222222
+"TOI","FRU","DQ Power",0
+"TOI","FRU","DQ Model Number",0
+"TOI","XMS","DQ Brand",1
+"TOI","XMS","DQ Type",1
+"TOI","XMS","DQ Colour",0.04
+"TOI","XMS","DQ Size",0.16
+"TOI","XMS","DQ Power",0
+"TOI","XMS","DQ Model Number",0.08
+"TOI","XES","DQ Brand",1
+"TOI","XES","DQ Type",1
+"TOI","XES","DQ Colour",0
+"TOI","XES","DQ Size",0
+"TOI","XES","DQ Power",0
+"TOI","XES","DQ Model Number",1
+"DEC","PRP","DQ Brand",1
+"DEC","PRP","DQ Type",1
+"DEC","PRP","DQ Colour",0.389830508474576
+"DEC","PRP","DQ Size",0.878787878787879
+"DEC","PRP","DQ Material",0.322033898305085
+"DEC","PRP","DQ Pack Qty",0.712121212121212
+"DEC","PRP","DQ Coverage",0
+"DEC","TIL","DQ Brand",1
+"DEC","TIL","DQ Type",1
+"DEC","TIL","DQ Colour",0.142857142857143
+"DEC","TIL","DQ Size",0.938775510204082
+"DEC","TIL","DQ Pack Qty",0.612244897959184
+"DEC","FIL","DQ Brand",1
+"DEC","FIL","DQ Type",1
+"DEC","FIL","DQ Colour",0
+"DEC","FIL","DQ Size",0.980769230769231
+"DEC","FIL","DQ Material",0
+"DEC","FIL","DQ Pack Qty",0.346153846153846
+"DEC","FIL","DQ Coverage",0
+"DEC","INS","DQ Brand",1
+"DEC","INS","DQ Type",1
+"DEC","INS","DQ Colour",0.0909090909090909
+"DEC","INS","DQ Size",0.863636363636364
+"DEC","INS","DQ Pack Qty",0.818181818181818
+"DEC","WAL","DQ Brand",1
+"DEC","WAL","DQ Type",1
+"DEC","WAL","DQ Colour",0.938775510204082
+"DEC","WAL","DQ Size",0.98
+"DEC","WAL","DQ Material",0.637755102040816
+"DEC","WAL","DQ Pack Qty",0.94
+"DEC","WAL","DQ Coverage",0.964285714285714
+"DEC","WOO","DQ Brand",1
+"DEC","WOO","DQ Type",1
+"DEC","WOO","DQ Colour",0.0540540540540541
+"DEC","WOO","DQ Size",1
+"DEC","WOO","DQ Pack Qty",0.27027027027027
+"DEC","WOO","DQ Coverage",0.702702702702703
+"DEC","STE","DQ Brand",1
+"DEC","STE","DQ Type",1
+"DEC","STE","DQ Size",0.391304347826087
+"DEC","STE","DQ Material",0.91304347826087
+"DEC","ADH","DQ Brand",1
+"DEC","ADH","DQ Type",1
+"DEC","ADH","DQ Colour",0.692307692307692
+"DEC","ADH","DQ Size",1
+"DEC","ADH","DQ Material",0.25
+"DEC","ADH","DQ Pack Qty",0.779661016949153
+"DEC","CAR","DQ Brand",1
+"DEC","CAR","DQ Type",1
+"DEC","CAR","DQ Colour",0.0769230769230769
+"DEC","CAR","DQ Size",0.923076923076923
+"DEC","CAR","DQ Pack Qty",0.769230769230769
+"DEC","PAS","DQ Brand",1
+"DEC","PAS","DQ Type",1
+"DEC","PAS","DQ Colour",0.0625
+"DEC","PAS","DQ Size",0.75
+"DEC","PAS","DQ Material",0
+"DEC","PAS","DQ Pack Qty",0.625
+"DEC","PAS","DQ Coverage",0.0625
+"DEC","ROL","DQ Brand",1
+"DEC","ROL","DQ Type",0.985714285714286
+"DEC","ROL","DQ Colour",0.217391304347826
+"DEC","ROL","DQ Size",0.785714285714286
+"DEC","ROL","DQ Pack Qty",0.685714285714286
+"DEC","ROL","DQ Coverage",0.0441176470588235
+"GAR","WEE","DQ Brand",1
+"GAR","WEE","DQ Type",1
+"GAR","WEE","DQ Colour",0
+"GAR","WEE","DQ Size",0.757575757575758
+"GAR","WEE","DQ Pack Qty",0.787878787878788
+"GAR","WEE","DQ Coverage",0
+"GAR","TRA","DQ Brand",1
+"GAR","TRA","DQ Type",1
+"GAR","TRA","DQ Colour",0.285714285714286
+"GAR","TRA","DQ Size",1
+"GAR","TRA","DQ Assembly",1
+"GAR","TRA","DQ Material",0.95
+"GAR","TRA","DQ Pack Qty",1
+"GAR","WOO","DQ Brand",1
+"GAR","WOO","DQ Type",1
+"GAR","WOO","DQ Colour",1
+"GAR","WOO","DQ Size",1
+"GAR","WOO","DQ Pack Qty",1
+"GAR","WOO","DQ Coverage",0.4
+"GAR","FER","DQ Brand",1
+"GAR","FER","DQ Type",1
+"GAR","FER","DQ Size",0.846153846153846
+"GAR","FER","DQ Pack Qty",0.384615384615385
+"GAR","ROO","DQ Brand",1
+"GAR","ROO","DQ Type",1
+"GAR","ROO","DQ Colour",0
+"GAR","ROO","DQ Size",1
+"GAR","ROO","DQ Pack Qty",0.333333333333333
+"GAR","ROO","DQ Coverage",0.333333333333333
+"GAR","TOO","DQ Brand",1
+"GAR","TOO","DQ Type",1
+"GAR","TOO","DQ Colour",0
+"GAR","TOO","DQ Size",1
+"GAR","TOO","DQ Pack Qty",1
+"GAR","TOO","DQ Power",0
+"GAR","SUN","DQ Brand",1
+"GAR","SUN","DQ Type",1
+"GAR","SUN","DQ Colour",0.247787610619469
+"GAR","SUN","DQ Size",0.917910447761194
+"GAR","SUN","DQ Assembly",1
+"GAR","SUN","DQ Material",0.241379310344828
+"GAR","SUN","DQ Pack Qty",0.958333333333333
+"GAR","SUN","DQ Power",0
+"GAR","SUN","DQ Coverage",0
+"GAR","SUN","DQ Capacity",0.25
+"GAR","WAT","DQ Brand",1
+"GAR","WAT","DQ Type",1
+"GAR","WAT","DQ Colour",0.2
+"GAR","WAT","DQ Size",1
+"GAR","WAT","DQ Capacity",1
+"GAR","CAN","DQ Brand",1
+"GAR","CAN","DQ Type",1
+"GAR","CAN","DQ Colour",0.2
+"GAR","CAN","DQ Size",1
+"GAR","CAN","DQ Material",0
+"GAR","CAN","DQ Pack Qty",0.8
+"GAR","GRA","DQ Brand",1
+"GAR","GRA","DQ Type",1
+"GAR","GRA","DQ Size",0.833333333333333
+"GAR","GRA","DQ Pack Qty",0.833333333333333
+"GAR","GRA","DQ Coverage",0.166666666666667
+"GAR","LIG","DQ Brand",1
+"GAR","LIG","DQ Type",1
+"GAR","LIG","DQ Colour",0
+"GAR","LIG","DQ Size",0
+"GAR","LIG","DQ Pack Qty",1
+"GAR","LIG","DQ Power",0.666666666666667
+"GAR","PCL","DQ Brand",1
+"GAR","PCL","DQ Type",0.916666666666667
+"GAR","PCL","DQ Colour",0.454545454545455
+"GAR","PCL","DQ Size",1
+"GAR","PCL","DQ Assembly",1
+"GAR","TUB","DQ Brand",1
+"GAR","TUB","DQ Type",1
+"GAR","TUB","DQ Colour",0.666666666666667
+"GAR","TUB","DQ Size",0.666666666666667
+"GAR","TUB","DQ Assembly",1
+"GAR","POW","DQ Brand",1
+"GAR","POW","DQ Type",1
+"GAR","POW","DQ Colour",0
+"GAR","POW","DQ Size",1
+"GAR","POW","DQ Power",0
+"GAR","POW","DQ Model Number",0
+"GAR","ORN","DQ Brand",1
+"GAR","ORN","DQ Type",1
+"GAR","ORN","DQ Colour",1
+"GAR","ORN","DQ Size",1
+"GAR","ORN","DQ Pack Qty",0
+"GAR","SPC","DQ Brand",1
+"GAR","SPC","DQ Type",1
+"GAR","SPC","DQ Colour",0
+"GAR","SPC","DQ Size",0
+"GAR","SPC","DQ Pack Qty",1
+"GAR","NET","DQ Brand",1
+"GAR","NET","DQ Type",1
+"GAR","NET","DQ Colour",0.5
+"GAR","NET","DQ Size",1
+"GAR","NET","DQ Pack Qty",1
+"GAR","NET","DQ Power",1
+"GAR","HAN","DQ Brand",1
+"GAR","HAN","DQ Type",1
+"GAR","HAN","DQ Colour",0
+"GAR","HAN","DQ Size",1
+"GAR","HAN","DQ Assembly",1
+"HOM","COO","DQ Brand",1
+"HOM","COO","DQ Type",1
+"HOM","COO","DQ Colour",0.501730103806228
+"HOM","COO","DQ Size",0.654485049833887
+"HOM","COO","DQ Assembly",1
+"HOM","COO","DQ Material",0.328571428571429
+"HOM","COO","DQ Pack Qty",0.841463414634146
+"HOM","COO","DQ Power",0
+"HOM","COO","DQ Washable",1
+"HOM","HAB","DQ Brand",1
+"HOM","HAB","DQ Type",1
+"HOM","HAB","DQ Colour",0.78
+"HOM","HAB","DQ Size",0.766990291262136
+"HOM","HAB","DQ Material",0.666666666666667
+"HOM","HAB","DQ Pack Qty",0.766990291262136
+"HOM","LIG","DQ Brand",1
+"HOM","LIG","DQ Type",1
+"HOM","LIG","DQ Colour",0.294642857142857
+"HOM","LIG","DQ Size",0.65938864628821
+"HOM","LIG","DQ Assembly",1
+"HOM","LIG","DQ Pack Qty",0.816593886462882
+"HOM","LIG","DQ Power",0.338582677165354
+"HOM","CPX","DQ Brand",1
+"HOM","CPX","DQ Type",1
+"HOM","CPX","DQ Colour",0.5875
+"HOM","CPX","DQ Size",0.95625
+"HOM","CPX","DQ Material",0.4875
+"HOM","CPX","DQ Pack Qty",0.8375
+"HOM","CPT","DQ Brand",1
+"HOM","CPT","DQ Type",1
+"HOM","CPT","DQ Colour",1
+"HOM","CPT","DQ Size",1
+"HOM","CPT","DQ Material",0
+"HOM","CPT","DQ Pack Qty",1
+"HOM","BAT","DQ Brand",1
+"HOM","BAT","DQ Type",0.995614035087719
+"HOM","BAT","DQ Colour",0.564516129032258
+"HOM","BAT","DQ Size",0.906542056074766
+"HOM","BAT","DQ Assembly",1
+"HOM","BAT","DQ Material",0.5375
+"HOM","BAT","DQ Pack Qty",0.974842767295597
+"HOM","BAT","DQ Power",0.5
+"HOM","BAT","DQ Washable",0.652173913043478
+"HOM","BAT","DQ Coverage",0.705882352941177
+"HOM","BAT","DQ Model Number",0
+"HOM","BAT","DQ Capacity",0.1
+"HOM","PHO","DQ Brand",1
+"HOM","PHO","DQ Type",1
+"HOM","PHO","DQ Colour",1
+"HOM","PHO","DQ Size",1
+"HOM","PHO","DQ Material",1
+"HOM","PHO","DQ Pack Qty",1
+"HOM","CUS","DQ Brand",1
+"HOM","CUS","DQ Type",1
+"HOM","CUS","DQ Colour",0.612903225806452
+"HOM","CUS","DQ Size",0.838709677419355
+"HOM","CUS","DQ Assembly",1
+"HOM","CUS","DQ Material",0.354838709677419
+"HOM","CUS","DQ Pack Qty",0.6875
+"HOM","CUS","DQ Washable",0.375
+"HOM","BLI","DQ Brand",1
+"HOM","BLI","DQ Type",1
+"HOM","BLI","DQ Colour",0.424242424242424
+"HOM","BLI","DQ Size",1
+"HOM","BLI","DQ Material",0.466666666666667
+"HOM","BLI","DQ Washable",0.387878787878788
+"HOM","BLI","DQ Coverage",0
+"HOM","STO","DQ Brand",1
+"HOM","STO","DQ Type",1
+"HOM","STO","DQ Colour",0.317073170731707
+"HOM","STO","DQ Size",0.75609756097561
+"HOM","STO","DQ Material",0.875
+"HOM","STO","DQ Pack Qty",0.829268292682927
+"HOM","STO","DQ Capacity",0.04
+"HOM","DIN","DQ Brand",1
+"HOM","DIN","DQ Type",1
+"HOM","DIN","DQ Colour",0.75
+"HOM","DIN","DQ Size",0.5
+"HOM","DIN","DQ Assembly",1
+"HOM","DIN","DQ Material",0.75
+"HOM","QUI","DQ Brand",1
+"HOM","QUI","DQ Type",1
+"HOM","QUI","DQ Colour",0.627118644067797
+"HOM","QUI","DQ Size",0.813559322033898
+"HOM","QUI","DQ Assembly",1
+"HOM","QUI","DQ Material",0.711864406779661
+"HOM","QUI","DQ Pack Qty",0.847826086956522
+"HOM","QUI","DQ Washable",0.565217391304348
+"HOM","CHI","DQ Brand",1
+"HOM","CHI","DQ Type",1
+"HOM","CHI","DQ Colour",0.376623376623377
+"HOM","CHI","DQ Size",0.92
+"HOM","CHI","DQ Material",0.8
+"HOM","CHI","DQ Pack Qty",0.935064935064935
+"HOM","CHI","DQ Power",0.133333333333333
+"HOM","CHI","DQ Age",0
+"HOM","CHI","DQ Washable",0.361111111111111
+"HOM","CHI","DQ Coverage",0
+"HOM","CHI","DQ Capacity",0.428571428571429
+"HOM","SHE","DQ Brand",1
+"HOM","SHE","DQ Type",1
+"HOM","SHE","DQ Colour",1
+"HOM","SHE","DQ Size",1
+"HOM","SHE","DQ Material",1
+"HOM","SHE","DQ Pack Qty",1
+"HOM","CLO","DQ Brand",1
+"HOM","CLO","DQ Type",1
+"HOM","CLO","DQ Colour",0.307692307692308
+"HOM","CLO","DQ Size",0.384615384615385
+"HOM","CLO","DQ Pack Qty",0.615384615384615
+"HOM","CLO","DQ Power",0.269230769230769
+"HOM","FUR","DQ Brand",1
+"HOM","FUR","DQ Type",1
+"HOM","FUR","DQ Colour",0.360169491525424
+"HOM","FUR","DQ Size",0.771186440677966
+"HOM","FUR","DQ Assembly",1
+"HOM","FUR","DQ Material",0.895238095238095
+"HOM","FUR","DQ Pack Qty",0.96078431372549
+"HOM","FUR","DQ Capacity",0.15
+"HOM","TOW","DQ Brand",1
+"HOM","TOW","DQ Type",1
+"HOM","TOW","DQ Colour",0.685483870967742
+"HOM","TOW","DQ Size",0.629032258064516
+"HOM","TOW","DQ Material",0.714285714285714
+"HOM","TOW","DQ Pack Qty",0.638297872340426
+"HOM","TOW","DQ Washable",0.605042016806723
+"HOM","DUV","DQ Brand",1
+"HOM","DUV","DQ Type",1
+"HOM","DUV","DQ Colour",0.194444444444444
+"HOM","DUV","DQ Size",0.595238095238095
+"HOM","DUV","DQ Assembly",1
+"HOM","DUV","DQ Material",0.437751004016064
+"HOM","DUV","DQ Pack Qty",0.633744855967078
+"HOM","DUV","DQ Washable",0.295833333333333
+"HOM","BED","DQ Brand",1
+"HOM","BED","DQ Type",1
+"HOM","BED","DQ Colour",0.413333333333333
+"HOM","BED","DQ Size",0.473333333333333
+"HOM","BED","DQ Material",0.506666666666667
+"HOM","BED","DQ Pack Qty",0.573333333333333
+"HOM","BED","DQ Washable",0.426666666666667
+"HOM","CUR","DQ Brand",1
+"HOM","CUR","DQ Type",1
+"HOM","CUR","DQ Colour",0.810344827586207
+"HOM","CUR","DQ Size",0.741379310344828
+"HOM","CUR","DQ Assembly",1
+"HOM","CUR","DQ Material",0.903846153846154
+"HOM","CUR","DQ Pack Qty",0.5
+"HOM","CUR","DQ Washable",0.843137254901961
+"HOM","CUR","DQ Coverage",0.0980392156862745
+"HOM","RUG","DQ Brand",1
+"HOM","RUG","DQ Type",1
+"HOM","RUG","DQ Colour",0.647058823529412
+"HOM","RUG","DQ Size",1
+"HOM","RUG","DQ Material",0.882352941176471
+"HOM","RUG","DQ Washable",0.294117647058824
+"HOM","CUT","DQ Brand",1
+"HOM","CUT","DQ Type",1
+"HOM","CUT","DQ Colour",0.648648648648649
+"HOM","CUT","DQ Size",0.972972972972973
+"HOM","CUT","DQ Assembly",1
+"HOM","CUT","DQ Material",0.324324324324324
+"HOM","CUT","DQ Pack Qty",1
+"HOM","CUT","DQ Washable",0.266666666666667
+"HOM","MIR","DQ Brand",1
+"HOM","MIR","DQ Type",1
+"HOM","MIR","DQ Colour",0.15
+"HOM","MIR","DQ Size",0.7
+"HOM","MIR","DQ Pack Qty",0.9
+"HOM","SP1","DQ Brand",1
+"HOM","SP1","DQ Type",1
+"HOM","SP1","DQ Colour",0
+"HOM","SP1","DQ Size",1
+"HOM","SP1","DQ Pack Qty",1
+"HOM","PIC","DQ Brand",1
+"HOM","PIC","DQ Type",1
+"HOM","PIC","DQ Colour",1
+"HOM","PIC","DQ Size",0
+"HOM","PIC","DQ Pack Qty",0.5
+"DIY","DOO","DQ Brand",1
+"DIY","DOO","DQ Type",1
+"DIY","DOO","DQ Colour",0.257731958762887
+"DIY","DOO","DQ Size",0.960352422907489
+"DIY","DOO","DQ Material",0.0984455958549223
+"DIY","DOO","DQ Pack Qty",0.559471365638767
+"DIY","DOO","DQ Power",0
+"DIY","MOT","DQ Brand",1
+"DIY","MOT","DQ Type",1
+"DIY","MOT","DQ Colour",0.169491525423729
+"DIY","MOT","DQ Size",0.593984962406015
+"DIY","MOT","DQ Pack Qty",0.768595041322314
+"DIY","MOT","DQ Power",0.025
+"DIY","MOT","DQ Age",1
+"DIY","CYC","DQ Brand",1
+"DIY","CYC","DQ Type",1
+"DIY","CYC","DQ Colour",0.289156626506024
+"DIY","CYC","DQ Size",0.951807228915663
+"DIY","CYC","DQ Assembly",1
+"DIY","CYC","DQ Pack Qty",0.705035971223022
+"DIY","CYC","DQ Power",0
+"DIY","CYC","DQ Age",1
+"DIY","FIX","DQ Brand",1
+"DIY","FIX","DQ Type",1
+"DIY","FIX","DQ Colour",0.607843137254902
+"DIY","FIX","DQ Size",0.604545454545454
+"DIY","FIX","DQ Material",0.297029702970297
+"DIY","FIX","DQ Pack Qty",0.73972602739726
+"DIY","FIX","DQ Power",0
+"DIY","FIX","DQ Model Number",0
+"DIY","ELE","DQ Brand",1
+"DIY","ELE","DQ Type",0.977099236641221
+"DIY","ELE","DQ Colour",0.337164750957854
+"DIY","ELE","DQ Size",0.782442748091603
+"DIY","ELE","DQ Material",0.411764705882353
+"DIY","ELE","DQ Pack Qty",0.851063829787234
+"DIY","ELE","DQ Power",0.137724550898204
+"DIY","ELE","DQ Model Number",0.078125
+"DIY","BAT","DQ Brand",1
+"DIY","BAT","DQ Type",0.985507246376812
+"DIY","BAT","DQ Size",1
+"DIY","BAT","DQ Pack Qty",0.840579710144927
+"DIY","BAT","DQ Power",0.782608695652174
+"DIY","SEC","DQ Brand",1
+"DIY","SEC","DQ Type",1
+"DIY","SEC","DQ Colour",1
+"DIY","SEC","DQ Size",0.80952380952381
+"DIY","SEC","DQ Pack Qty",0.705882352941177
+"DIY","SEC","DQ Power",0.0476190476190476
+"DIY","SEC","DQ Model Number",0.916666666666667
+"DIY","BRA","DQ Brand",1
+"DIY","BRA","DQ Type",1
+"DIY","BRA","DQ Colour",0.564102564102564
+"DIY","BRA","DQ Size",1
+"DIY","BRA","DQ Material",0.7
+"DIY","BRA","DQ Pack Qty",0.695652173913043
+"DIY","BRA","DQ Capacity",0
+"DIY","SCR","DQ Brand",1
+"DIY","SCR","DQ Type",1
+"DIY","SCR","DQ Colour",0.333333333333333
+"DIY","SCR","DQ Size",0.902097902097902
+"DIY","SCR","DQ Material",0.96875
+"DIY","SCR","DQ Pack Qty",0.811188811188811
+"DIY","SCR","DQ Power",0
+"DIY","TOO","DQ Brand",1
+"DIY","TOO","DQ Type",1
+"DIY","TOO","DQ Colour",0.153846153846154
+"DIY","TOO","DQ Size",0.723076923076923
+"DIY","TOO","DQ Material",0
+"DIY","TOO","DQ Pack Qty",0.546623794212219
+"DIY","TOO","DQ Power",0.0458015267175573
+"DIY","TOO","DQ Model Number",0.333333333333333
+"DIY","TOO","DQ Capacity",0
+"DIY","PLU","DQ Brand",1
+"DIY","PLU","DQ Type",1
+"DIY","PLU","DQ Size",0.152941176470588
+"DIY","PLU","DQ Pack Qty",0.894117647058824
+"DIY","ROP","DQ Brand",1
+"DIY","ROP","DQ Type",1
+"DIY","ROP","DQ Colour",0
+"DIY","ROP","DQ Size",0.869565217391304
+"DIY","ROP","DQ Material",0
+"DIY","ROP","DQ Pack Qty",0.695652173913043
+"DIY","ROP","DQ Power",0
+"DIY","BIN","DQ Brand",1
+"DIY","BIN","DQ Type",1
+"DIY","BIN","DQ Colour",0.874125874125874
+"DIY","BIN","DQ Size",1
+"DIY","BIN","DQ Material",0
+"DIY","BIN","DQ Pack Qty",0.335664335664336
+"DIY","BIK","DQ Brand",1
+"DIY","BIK","DQ Type",1
+"DIY","BIK","DQ Colour",1
+"DIY","BIK","DQ Size",1
+"DIY","BIK","DQ Age",1
+"DIY","BUL","DQ Brand",1
+"DIY","BUL","DQ Type",1
+"DIY","BUL","DQ Size",0.994152046783626
+"DIY","BUL","DQ Pack Qty",1
+"DIY","BUL","DQ Power",0.0116959064327485
+"DIY","SHE","DQ Brand",1
+"DIY","SHE","DQ Type",1
+"DIY","SHE","DQ Colour",1
+"DIY","SHE","DQ Size",0
+"DIY","SHE","DQ Material",1
+"DIY","SHE","DQ Pack Qty",1
+"DIY","SHE","DQ Capacity",0
+"PAI","EMU","DQ Brand",1
+"PAI","EMU","DQ Type",1
+"PAI","EMU","DQ Colour",1
+"PAI","EMU","DQ Size",1
+"PAI","EMU","DQ Pack Qty",0.491525423728814
+"PAI","EMU","DQ Coverage",0.893462469733656
+"PAI","WAP","DQ Brand",1
+"PAI","WAP","DQ Type",1
+"PAI","WAP","DQ Colour",1
+"PAI","WAP","DQ Size",1
+"PAI","WAP","DQ Pack Qty",0.392857142857143
+"PAI","WAP","DQ Coverage",0.821428571428571
+"PAI","EXT","DQ Brand",1
+"PAI","EXT","DQ Type",1
+"PAI","EXT","DQ Colour",0.971428571428571
+"PAI","EXT","DQ Size",1
+"PAI","EXT","DQ Material",0
+"PAI","EXT","DQ Pack Qty",0.485714285714286
+"PAI","EXT","DQ Coverage",0.542857142857143
+"PAI","GLO","DQ Brand",1
+"PAI","GLO","DQ Type",1
+"PAI","GLO","DQ Colour",1
+"PAI","GLO","DQ Size",1
+"PAI","GLO","DQ Pack Qty",1
+"PAI","GLO","DQ Coverage",0.5
+"PAI","ICI","DQ Brand",1
+"PAI","ICI","DQ Type",1
+"PAI","ICI","DQ Colour",1
+"PAI","ICI","DQ Size",1
+"PAI","ICI","DQ Pack Qty",0.420212765957447
+"PAI","ICI","DQ Coverage",0.595744680851064
+"PAI","INT","DQ Brand",1
+"PAI","INT","DQ Type",1
+"PAI","INT","DQ Colour",1
+"PAI","INT","DQ Size",1
+"PAI","INT","DQ Pack Qty",0.6
+"PAI","INT","DQ Coverage",0.6
+"PAI","CRO","DQ Brand",1
+"PAI","CRO","DQ Type",1
+"PAI","CRO","DQ Colour",1
+"PAI","CRO","DQ Size",1
+"PAI","CRO","DQ Pack Qty",1
+"PAI","CRO","DQ Coverage",1
+"PAI","PLA","DQ Brand",1
+"PAI","PLA","DQ Type",1
+"PAI","PLA","DQ Size",1
+"PAI","PLA","DQ Pack Qty",0
+"PAI","PLA","DQ Power",0
+"HOU","AIR","DQ Brand",1
+"HOU","AIR","DQ Type",0.964285714285714
+"HOU","AIR","DQ Colour",0.846153846153846
+"HOU","AIR","DQ Size",0.857142857142857
+"HOU","AIR","DQ Pack Qty",0.857142857142857
+"HOU","SCO","DQ Brand",1
+"HOU","SCO","DQ Type",1
+"HOU","SCO","DQ Colour",0.817073170731707
+"HOU","SCO","DQ Size",0.469879518072289
+"HOU","SCO","DQ Material",0.833333333333333
+"HOU","SCO","DQ Pack Qty",0.891566265060241
+"HOU","PEG","DQ Brand",1
+"HOU","PEG","DQ Type",1
+"HOU","PEG","DQ Colour",1
+"HOU","PEG","DQ Size",0.461538461538462
+"HOU","PEG","DQ Pack Qty",1
+"HOU","MOP","DQ Brand",1
+"HOU","MOP","DQ Type",0.989795918367347
+"HOU","MOP","DQ Colour",0.337662337662338
+"HOU","MOP","DQ Size",0.195402298850575
+"HOU","MOP","DQ Material",0.701298701298701
+"HOU","MOP","DQ Pack Qty",0.938775510204082
+"HOU","MOP","DQ Capacity",0
+"HOU","DUS","DQ Brand",1
+"HOU","DUS","DQ Type",1
+"HOU","DUS","DQ Colour",1
+"HOU","DUS","DQ Size",1
+"HOU","DUS","DQ Pack Qty",1
+"HOU","DUS","DQ Capacity",1
+"HOU","MAT","DQ Brand",1
+"HOU","MAT","DQ Type",1
+"HOU","MAT","DQ Colour",0.423076923076923
+"HOU","MAT","DQ Size",0.961538461538462
+"HOU","MAT","DQ Material",0.76
+"HOU","MAT","DQ Pack Qty",1
+"HOU","MAT","DQ Washable",0.52
+"HOU","IRN","DQ Brand",1
+"HOU","IRN","DQ Type",1
+"HOU","IRN","DQ Colour",0.78125
+"HOU","IRN","DQ Size",0.59375
+"HOU","IRN","DQ Material",0
+"HOU","IRN","DQ Pack Qty",0.307692307692308
+"HOU","IRN","DQ Power",0.909090909090909
+"HOU","IRN","DQ Model Number",0.454545454545455
+"HOU","IRN","DQ Capacity",0.375
+"HOU","SWE","DQ Brand",1
+"HOU","SWE","DQ Type",1
+"HOU","SWE","DQ Colour",0.444444444444444
+"HOU","SWE","DQ Size",0.333333333333333
+"HOU","SWE","DQ Material",0.714285714285714
+"HOU","SWE","DQ Pack Qty",1
+"HOU","SWE","DQ Power",0.4
+"HOU","SWE","DQ Model Number",0.6
+"HOU","WAR","DQ Brand",1
+"HOU","WAR","DQ Type",0.958333333333333
+"HOU","WAR","DQ Colour",0.82051282051282
+"HOU","WAR","DQ Size",0.645833333333333
+"HOU","WAR","DQ Material",0.684210526315789
+"HOU","WAR","DQ Pack Qty",0.978723404255319
+"HOU","WAR","DQ Capacity",0.15
+"HOU","JML","DQ Brand",1
+"HOU","JML","DQ Type",1
+"HOU","JML","DQ Colour",0.259259259259259
+"HOU","JML","DQ Size",0.0740740740740741
+"HOU","JML","DQ Pack Qty",0.962962962962963
+"HOU","SPC","DQ Brand",1
+"HOU","SPC","DQ Type",1
+"HOU","SPC","DQ Colour",0.6
+"HOU","SPC","DQ Size",0.333333333333333
+"HOU","SPC","DQ Material",1
+"HOU","SPC","DQ Pack Qty",1
+"HOU","HEA","DQ Brand",1
+"HOU","HEA","DQ Type",1
+"HOU","HEA","DQ Colour",0.4
+"HOU","HEA","DQ Size",0.4
+"HOU","HEA","DQ Pack Qty",1
+"HOU","HEA","DQ Power",0.4
+"HOU","HEA","DQ Model Number",0.4
+"HOU","HTV","DQ Brand",1
+"HOU","HTV","DQ Type",1
+"HOU","HTV","DQ Colour",0
+"HOU","HTV","DQ Size",0
+"HOU","HTV","DQ Power",0
+"HOU","HTV","DQ Model Number",0
+"PET","CAT","DQ Brand",1
+"PET","CAT","DQ Type",1
+"PET","CAT","DQ Colour",0.0967741935483871
+"PET","CAT","DQ Size",0.972972972972973
+"PET","CAT","DQ Pack Qty",0.905405405405405
+"PET","CAT","DQ Power",0
+"PET","GEN","DQ Brand",1
+"PET","GEN","DQ Type",1
+"PET","GEN","DQ Colour",0.104166666666667
+"PET","GEN","DQ Size",0.876106194690266
+"PET","GEN","DQ Material",0.9
+"PET","GEN","DQ Pack Qty",0.893805309734513
+"PET","GEN","DQ Capacity",0
+"PET","LIT","DQ Brand",1
+"PET","LIT","DQ Type",1
+"PET","LIT","DQ Colour",0.125
+"PET","LIT","DQ Size",0.9375
+"PET","LIT","DQ Pack Qty",0.875
+"PET","WIL","DQ Brand",1
+"PET","WIL","DQ Type",1
+"PET","WIL","DQ Size",0.855421686746988
+"PET","WIL","DQ Pack Qty",0.903614457831325
+"PET","DOM","DQ Brand",1
+"PET","DOM","DQ Type",1
+"PET","DOM","DQ Colour",0
+"PET","DOM","DQ Size",0.721311475409836
+"PET","DOM","DQ Material",0
+"PET","DOM","DQ Pack Qty",0.75
+"PET","DOM","DQ Power",0.222222222222222
+"PET","DOM","DQ Coverage",0
+"PET","TRT","DQ Brand",1
+"PET","TRT","DQ Type",0.993670886075949
+"PET","TRT","DQ Size",0.974683544303797
+"PET","TRT","DQ Pack Qty",0.835443037974684
+"PET","SMA","DQ Brand",0.985915492957746
+"PET","SMA","DQ Type",1
+"PET","SMA","DQ Colour",0
+"PET","SMA","DQ Size",0.684210526315789
+"PET","SMA","DQ Pack Qty",0.701754385964912
+"PET","DOG","DQ Brand",1
+"PET","DOG","DQ Type",1
+"PET","DOG","DQ Size",0.985611510791367
+"PET","DOG","DQ Pack Qty",0.76978417266187
+"PET","BED","DQ Brand",1
+"PET","BED","DQ Type",1
+"PET","BED","DQ Colour",0.625
+"PET","BED","DQ Size",0.9375
+"PET","BED","DQ Pack Qty",0.9375
+"PET","100","DQ Brand",1
+"PET","100","DQ Type",1
+"PET","100","DQ Colour",0.325581395348837
+"PET","100","DQ Size",0.782608695652174
+"PET","100","DQ Material",0.125
+"PET","100","DQ Pack Qty",0.77891156462585
+"PET","100","DQ Power",0
+"PET","100","DQ Coverage",0
+"PET","100","DQ Capacity",0.5
+"SBK","ADH","DQ Brand",1
+"SBK","ADH","DQ Type",1
+"SBK","ADH","DQ Colour",0.761904761904762
+"SBK","ADH","DQ Size",0.822222222222222
+"SBK","ADH","DQ Material",0
+"SBK","ADH","DQ Pack Qty",0.844444444444444
+"SBK","DES","DQ Brand",1
+"SBK","DES","DQ Type",1
+"SBK","DES","DQ Colour",0.64527027027027
+"SBK","DES","DQ Size",0.468023255813953
+"SBK","DES","DQ Material",0.0512820512820513
+"SBK","DES","DQ Pack Qty",0.845238095238095
+"SBK","DES","DQ Power",0.230769230769231
+"SBK","DES","DQ Age",0
+"SBK","DES","DQ Model Number",0.0833333333333333
+"SBK","OFF","DQ Brand",1
+"SBK","OFF","DQ Type",1
+"SBK","OFF","DQ Colour",0.6625
+"SBK","OFF","DQ Size",0.694117647058824
+"SBK","OFF","DQ Assembly",1
+"SBK","OFF","DQ Material",0.350649350649351
+"SBK","OFF","DQ Pack Qty",0.771084337349398
+"SBK","OFF","DQ Power",0
+"SBK","KID","DQ Brand",1
+"SBK","KID","DQ Type",1
+"SBK","KID","DQ Colour",0.564444444444444
+"SBK","KID","DQ Size",0.611764705882353
+"SBK","KID","DQ Material",0.5
+"SBK","KID","DQ Pack Qty",0.913419913419913
+"SBK","KID","DQ Power",0
+"SBK","KID","DQ Age",0.492424242424242
+"SBK","KID","DQ Model Number",0
+"SBK","ADU","DQ Brand",1
+"SBK","ADU","DQ Type",1
+"SBK","ADU","DQ Colour",0.378151260504202
+"SBK","ADU","DQ Size",0.694915254237288
+"SBK","ADU","DQ Material",1
+"SBK","ADU","DQ Pack Qty",0.908333333333333
+"SBK","ADU","DQ Age",0.25
+"SBK","PAR","DQ Brand",1
+"SBK","PAR","DQ Type",1
+"SBK","PAR","DQ Colour",0.862275449101796
+"SBK","PAR","DQ Size",0.405172413793103
+"SBK","PAR","DQ Pack Qty",0.949438202247191
+"SBK","PAR","DQ Power",0
+"SBK","PAR","DQ Age",0.695652173913043
+"SBK","GIF","DQ Brand",1
+"SBK","GIF","DQ Type",1
+"SBK","GIF","DQ Colour",0.646464646464647
+"SBK","GIF","DQ Size",0.898989898989899
+"SBK","GIF","DQ Pack Qty",0.95959595959596
+"SBK","GIF","DQ Power",0
+"SBK","NOT","DQ Brand",1
+"SBK","NOT","DQ Type",1
+"SBK","NOT","DQ Size",0.958904109589041
+"SBK","NOT","DQ Pack Qty",0.726027397260274
+"SBK","COM","DQ Brand",1
+"SBK","COM","DQ Type",1
+"SBK","COM","DQ Colour",0.804347826086957
+"SBK","COM","DQ Size",0.397849462365591
+"SBK","COM","DQ Pack Qty",1
+"SBK","COM","DQ Power",0.0444444444444444
+"SBK","COM","DQ Model Number",0.806818181818182
+"SBK","KFL","DQ Brand",1
+"SBK","KFL","DQ Type",1
+"SBK","KFL","DQ Colour",0.755102040816326
+"SBK","KFL","DQ Size",0.671052631578947
+"SBK","KFL","DQ Pack Qty",0.92
+"SBK","KFL","DQ Power",0
+"SBK","KFL","DQ Model Number",0
+"SBK","BOM","DQ Brand",1
+"SBK","BOM","DQ Type",1
+"SBK","BOM","DQ Pack Qty",0.590909090909091
+"SBK","PHO","DQ Brand",1
+"SBK","PHO","DQ Type",1
+"SBK","PHO","DQ Colour",0.25
+"SBK","PHO","DQ Size",0.5625
+"SBK","PHO","DQ Pack Qty",1
+"SBK","SPC","DQ Brand",1
+"SBK","SPC","DQ Type",1
+"SBK","SPC","DQ Colour",0
+"SBK","SPC","DQ Pack Qty",1
+"SBK","SPC","DQ Age",0
+"SBK","COO","DQ Brand",1
+"SBK","COO","DQ Type",1
+"SBK","COO","DQ Colour",0
+"SBK","COO","DQ Size",0.620689655172414
+"SBK","COO","DQ Material",0.4
+"SBK","COO","DQ Pack Qty",1
+"KIT","BAP","DQ Brand",1
+"KIT","BAP","DQ Type",1
+"KIT","BAP","DQ Colour",0.36
+"KIT","BAP","DQ Size",0.761904761904762
+"KIT","BAP","DQ Material",0.6
+"KIT","BAP","DQ Pack Qty",0.914285714285714
+"KIT","BAP","DQ Power",0
+"KIT","BAP","DQ Capacity",0.2
+"KIT","GAD","DQ Brand",1
+"KIT","GAD","DQ Type",1
+"KIT","GAD","DQ Colour",0.59504132231405
+"KIT","GAD","DQ Size",0.305785123966942
+"KIT","GAD","DQ Material",0
+"KIT","GAD","DQ Pack Qty",0.823529411764706
+"KIT","GAD","DQ Power",0
+"KIT","GAD","DQ Model Number",0.285714285714286
+"KIT","GAD","DQ Capacity",0
+"KIT","BAK","DQ Brand",1
+"KIT","BAK","DQ Type",1
+"KIT","BAK","DQ Colour",0.531914893617021
+"KIT","BAK","DQ Size",0.957446808510638
+"KIT","BAK","DQ Material",0.75
+"KIT","BAK","DQ Pack Qty",0.957446808510638
+"KIT","BAK","DQ Power",0
+"KIT","BAK","DQ Model Number",0
+"KIT","BAK","DQ Capacity",0
+"KIT","PLA","DQ Brand",1
+"KIT","PLA","DQ Type",1
+"KIT","PLA","DQ Colour",0.733333333333333
+"KIT","PLA","DQ Size",0.888888888888889
+"KIT","PLA","DQ Material",1
+"KIT","PLA","DQ Pack Qty",0.644444444444444
+"KIT","PLA","DQ Capacity",0.625
+"KIT","HOL","DQ Brand",1
+"KIT","HOL","DQ Type",1
+"KIT","HOL","DQ Colour",0.602150537634409
+"KIT","HOL","DQ Size",0.795698924731183
+"KIT","HOL","DQ Pack Qty",0.688311688311688
+"KIT","HOL","DQ Power",0
+"KIT","HOL","DQ Washable",0.306122448979592
+"KIT","HOL","DQ Model Number",0.8125
+"KIT","HOL","DQ Capacity",0
+"KIT","FOO","DQ Brand",1
+"KIT","FOO","DQ Type",1
+"KIT","FOO","DQ Colour",0.485294117647059
+"KIT","FOO","DQ Size",0.882352941176471
+"KIT","FOO","DQ Material",0.520833333333333
+"KIT","FOO","DQ Pack Qty",0.838235294117647
+"KIT","FOO","DQ Power",0
+"KIT","FOO","DQ Model Number",0
+"KIT","FOO","DQ Capacity",0.583333333333333
+"KIT","OTT","DQ Brand",1
+"KIT","OTT","DQ Type",1
+"KIT","OTT","DQ Colour",0.733333333333333
+"KIT","OTT","DQ Size",0.766666666666667
+"KIT","OTT","DQ Pack Qty",0.633333333333333
+"KIT","HOM","DQ Brand",1
+"KIT","HOM","DQ Type",1
+"KIT","HOM","DQ Size",0.707692307692308
+"KIT","HOM","DQ Pack Qty",0.953846153846154
+"KIT","HOM","DQ Capacity",0.203125
+"KIT","CUT","DQ Brand",1
+"KIT","CUT","DQ Type",1
+"KIT","CUT","DQ Colour",0.615384615384615
+"KIT","CUT","DQ Size",0.461538461538462
+"KIT","CUT","DQ Material",0.5
+"KIT","CUT","DQ Pack Qty",0.961538461538462
+"KIT","CUT","DQ Power",0
+"KIT","CUT","DQ Washable",0
+"KIT","CUT","DQ Capacity",0
+"KIT","MSP","DQ Brand",1
+"KIT","MSP","DQ Type",0.941176470588235
+"KIT","MSP","DQ Colour",0.941176470588235
+"KIT","MSP","DQ Size",1
+"KIT","MSP","DQ Material",1
+"KIT","MSP","DQ Pack Qty",1
+"KIT","MSP","DQ Capacity",1
+"KIT","FIL","DQ Brand",1
+"KIT","FIL","DQ Type",1
+"KIT","FIL","DQ Colour",0.888888888888889
+"KIT","FIL","DQ Size",1
+"KIT","FIL","DQ Pack Qty",1
+"KIT","FIL","DQ Capacity",0.222222222222222
+"KIT","STO","DQ Brand",1
+"KIT","STO","DQ Type",1
+"KIT","STO","DQ Colour",0.777777777777778
+"KIT","STO","DQ Size",0.888888888888889
+"KIT","STO","DQ Material",0.923076923076923
+"KIT","STO","DQ Pack Qty",0.933333333333333
+"KIT","STO","DQ Power",0
+"KIT","STO","DQ Model Number",1
+"KIT","STO","DQ Capacity",0.666666666666667
+"KIT","MUG","DQ Brand",1
+"KIT","MUG","DQ Type",0.979591836734694
+"KIT","MUG","DQ Colour",0.326530612244898
+"KIT","MUG","DQ Size",0.693877551020408
+"KIT","MUG","DQ Pack Qty",0.857142857142857
+"KIT","ELE","DQ Brand",1
+"KIT","ELE","DQ Type",0.995
+"KIT","ELE","DQ Colour",0.848958333333333
+"KIT","ELE","DQ Size",0.615
+"KIT","ELE","DQ Assembly",1
+"KIT","ELE","DQ Material",1
+"KIT","ELE","DQ Pack Qty",1
+"KIT","ELE","DQ Power",0.744565217391304
+"KIT","ELE","DQ Model Number",0.885245901639344
+"KIT","ELE","DQ Capacity",0.216666666666667
+"KIT","GLA","DQ Brand",1
+"KIT","GLA","DQ Type",1
+"KIT","GLA","DQ Colour",0.576923076923077
+"KIT","GLA","DQ Size",0.538461538461538
+"KIT","GLA","DQ Pack Qty",0.692307692307692
+"KIT","GLA","DQ Power",0.5
+"KIT","GLA","DQ Washable",0.173913043478261
+"KIT","GLA","DQ Model Number",0.5
+"KIT","DIN","DQ Brand",1
+"KIT","DIN","DQ Type",0.994764397905759
+"KIT","DIN","DQ Colour",0.717948717948718
+"KIT","DIN","DQ Size",0.666666666666667
+"KIT","DIN","DQ Material",0.571428571428571
+"KIT","DIN","DQ Pack Qty",0.890322580645161
+"KIT","DIN","DQ Power",0.4
+"KIT","DIN","DQ Washable",0.75
+"KIT","DIN","DQ Model Number",0.25
+"KIT","DIN","DQ Capacity",0
+"KIT","FAB","DQ Brand",1
+"KIT","FAB","DQ Type",1
+"KIT","FAB","DQ Colour",0.953125
+"KIT","FAB","DQ Size",1
+"KIT","FAB","DQ Pack Qty",1
+"KIT","TEX","DQ Brand",1
+"KIT","TEX","DQ Type",1
+"KIT","TEX","DQ Colour",0.764705882352941
+"KIT","TEX","DQ Size",0.647058823529412
+"KIT","TEX","DQ Pack Qty",0.764705882352941
+"KIT","TAB","DQ Brand",1
+"KIT","TAB","DQ Type",1
+"KIT","TAB","DQ Colour",0.72
+"KIT","TAB","DQ Size",0.72
+"KIT","TAB","DQ Pack Qty",0.6
+"KIT","SPC","DQ Brand",0
+"KIT","SPC","DQ Type",1
+"KIT","SPC","DQ Colour",0
+"KIT","SPC","DQ Size",1
+"KIT","SPC","DQ Power",0.6
+"KIT","SPC","DQ Model Number",0
+"KIT","CHA","DQ Brand",1
+"KIT","CHA","DQ Type",1
+"KIT","CHA","DQ Colour",0
+"KIT","CHA","DQ Size",0
+"KIT","CHA","DQ Material",0
+"KIT","CHA","DQ Pack Qty",0
+"CLE","LAU","DQ Brand",1
+"CLE","LAU","DQ Type",0.990783410138249
+"CLE","LAU","DQ Colour",1
+"CLE","LAU","DQ Size",0.748837209302326
+"CLE","LAU","DQ Pack Qty",0.786046511627907
+"CLE","FUR","DQ Brand",1
+"CLE","FUR","DQ Type",1
+"CLE","FUR","DQ Colour",1
+"CLE","FUR","DQ Size",0.80952380952381
+"CLE","FUR","DQ Material",0
+"CLE","FUR","DQ Pack Qty",0.80952380952381
+"CLE","TOI","DQ Brand",1
+"CLE","TOI","DQ Type",1
+"CLE","TOI","DQ Size",0.678571428571429
+"CLE","TOI","DQ Pack Qty",0.714285714285714
+"CLE","SUR","DQ Brand",1
+"CLE","SUR","DQ Type",0.991596638655462
+"CLE","SUR","DQ Colour",0.285714285714286
+"CLE","SUR","DQ Size",0.773913043478261
+"CLE","SUR","DQ Material",0
+"CLE","SUR","DQ Pack Qty",0.747826086956522
+"CLE","AIR","DQ Brand",1
+"CLE","AIR","DQ Type",1
+"CLE","AIR","DQ Colour",0.208333333333333
+"CLE","AIR","DQ Size",0.670212765957447
+"CLE","AIR","DQ Pack Qty",0.829787234042553
+"CLE","AIR","DQ Power",0.0377358490566038
+"CLE","DIS","DQ Brand",1
+"CLE","DIS","DQ Type",1
+"CLE","DIS","DQ Size",0.625
+"CLE","DIS","DQ Pack Qty",0.625
+"CLE","FLY","DQ Brand",1
+"CLE","FLY","DQ Type",1
+"CLE","FLY","DQ Size",0.6
+"CLE","FLY","DQ Pack Qty",1
+"CLE","KIW","DQ Brand",1
+"CLE","KIW","DQ Type",1
+"CLE","KIW","DQ Colour",0.608695652173913
+"CLE","KIW","DQ Size",0.608695652173913
+"CLE","KIW","DQ Pack Qty",0.130434782608696
+"FOO","SXM","DQ Brand",1
+"FOO","SXM","DQ Type",1
+"FOO","SXM","DQ Size",1
+"FOO","SXM","DQ Pack Qty",1
+"FOO","CHO","DQ Brand",1
+"FOO","CHO","DQ Type",1
+"FOO","CHO","DQ Colour",0
+"FOO","CHO","DQ Size",0.857142857142857
+"FOO","CHO","DQ Pack Qty",1
+"FOO","KID","DQ Brand",1
+"FOO","KID","DQ Type",1
+"FOO","KID","DQ Size",0.666666666666667
+"FOO","KID","DQ Pack Qty",1
+"FOO","MUL","DQ Brand",1
+"FOO","MUL","DQ Type",1
+"FOO","MUL","DQ Size",1
+"FOO","MUL","DQ Pack Qty",1
+"FOO","CAN","DQ Brand",1
+"FOO","CAN","DQ Type",1
+"FOO","CAN","DQ Size",0
+"FOO","CAN","DQ Pack Qty",1
+"XMD","WIN","DQ Brand",1
+"XMD","WIN","DQ Type",1
+"XMD","WIN","DQ Colour",1
+"XMD","WIN","DQ Size",1
+"XMD","WIN","DQ Pack Qty",1
+"XMD","LIG","DQ Brand",1
+"XMD","LIG","DQ Type",1
+"XMD","LIG","DQ Colour",0.875
+"XMD","LIG","DQ Size",1
+"XMD","LIG","DQ Pack Qty",1
+"XMD","LIG","DQ Power",1
+"XMD","LIG","DQ Model Number",0
+"DIS","TIS","DQ Brand",1
+"DIS","TIS","DQ Type",1
+"DIS","TIS","DQ Size",0.909090909090909
+"DIS","TIS","DQ Pack Qty",0.909090909090909
+"DIS","BIN","DQ Brand",1
+"DIS","BIN","DQ Type",1
+"DIS","BIN","DQ Colour",0.0833333333333333
+"DIS","BIN","DQ Size",0.638888888888889
+"DIS","BIN","DQ Pack Qty",0.805555555555556
+"DIS","BIN","DQ Capacity",0
+"DIS","TAB","DQ Brand",1
+"DIS","TAB","DQ Type",1
+"DIS","TAB","DQ Colour",0.756756756756757
+"DIS","TAB","DQ Size",0.594594594594595
+"DIS","TAB","DQ Material",0
+"DIS","TAB","DQ Pack Qty",0.972972972972973
+"DIS","TAB","DQ Capacity",0
+"DIS","TOI","DQ Brand",1
+"DIS","TOI","DQ Type",1
+"DIS","TOI","DQ Size",0.909090909090909
+"DIS","TOI","DQ Pack Qty",1
+"DIS","FOO","DQ Brand",1
+"DIS","FOO","DQ Type",1
+"DIS","FOO","DQ Colour",0
+"DIS","FOO","DQ Size",0.810810810810811
+"DIS","FOO","DQ Material",0.405405405405405
+"DIS","FOO","DQ Pack Qty",0.810810810810811
+"DIS","FOO","DQ Capacity",0
+"DIS","TOW","DQ Brand",1
+"DIS","TOW","DQ Type",1
+"DIS","TOW","DQ Size",0.857142857142857
+"DIS","TOW","DQ Pack Qty",1
+"TOY","ACT","DQ Brand",1
+"TOY","ACT","DQ Type",1
+"TOY","ACT","DQ Colour",1
+"TOY","ACT","DQ Pack Qty",1
+"TOY","ACT","DQ Power",0.0454545454545455
+"TOY","ACT","DQ Age",1
+"TOY","ACT","DQ Washable",0
+"TOY","CRE","DQ Brand",1
+"TOY","CRE","DQ Type",1
+"TOY","CRE","DQ Colour",0.963636363636364
+"TOY","CRE","DQ Pack Qty",1
+"TOY","CRE","DQ Power",0.0363636363636364
+"TOY","CRE","DQ Age",1
+"TOY","FAN","DQ Brand",1
+"TOY","FAN","DQ Type",1
+"TOY","FAN","DQ Colour",0.987951807228916
+"TOY","FAN","DQ Size",0
+"TOY","FAN","DQ Pack Qty",1
+"TOY","FAN","DQ Power",0.0121951219512195
+"TOY","FAN","DQ Age",1
+"TOY","FAN","DQ Washable",0.202702702702703
+"TOY","PRE","DQ Brand",1
+"TOY","PRE","DQ Type",1
+"TOY","PRE","DQ Colour",0.992805755395683
+"TOY","PRE","DQ Size",0.105263157894737
+"TOY","PRE","DQ Pack Qty",1
+"TOY","PRE","DQ Power",0.125
+"TOY","PRE","DQ Age",1
+"TOY","PRE","DQ Washable",0
+"TOY","SST","DQ Brand",1
+"TOY","SST","DQ Type",1
+"TOY","SST","DQ Colour",0.827586206896552
+"TOY","SST","DQ Size",1
+"TOY","SST","DQ Assembly",1
+"TOY","SST","DQ Pack Qty",1
+"TOY","SST","DQ Power",0.315789473684211
+"TOY","SST","DQ Age",0.689655172413793
+"TOY","POC","DQ Brand",1
+"TOY","POC","DQ Type",1
+"TOY","POC","DQ Colour",0.5
+"TOY","POC","DQ Pack Qty",0.96875
+"TOY","POC","DQ Power",0
+"TOY","POC","DQ Age",1
+"TOY","POC","DQ Washable",0
+"TOY","JIG","DQ Brand",1
+"TOY","JIG","DQ Type",1
+"TOY","JIG","DQ Colour",1
+"TOY","JIG","DQ Pack Qty",1
+"TOY","JIG","DQ Power",0
+"TOY","JIG","DQ Age",1
+"TOY","COL","DQ Brand",1
+"TOY","COL","DQ Type",1
+"TOY","COL","DQ Colour",1
+"TOY","COL","DQ Pack Qty",1
+"TOY","COL","DQ Power",0
+"TOY","COL","DQ Age",1
+"TOY","COL","DQ Washable",0
+"TOY","BOY","DQ Brand",1
+"TOY","BOY","DQ Type",1
+"TOY","BOY","DQ Colour",1
+"TOY","BOY","DQ Pack Qty",1
+"TOY","BOY","DQ Power",0
+"TOY","BOY","DQ Age",1
+"TOY","PLU","DQ Brand",1
+"TOY","PLU","DQ Type",1
+"TOY","PLU","DQ Colour",1
+"TOY","PLU","DQ Pack Qty",1
+"TOY","PLU","DQ Power",0
+"TOY","PLU","DQ Age",1
+"TOY","PLU","DQ Washable",0.375
+"TOY","GIR","DQ Brand",1
+"TOY","GIR","DQ Type",1
+"TOY","GIR","DQ Colour",0.666666666666667
+"TOY","GIR","DQ Pack Qty",1
+"TOY","GIR","DQ Power",0
+"TOY","GIR","DQ Age",1
+"TOY","GIR","DQ Washable",0
+"TOY","GAM","DQ Brand",1
+"TOY","GAM","DQ Type",1
+"TOY","GAM","DQ Colour",0.277777777777778
+"TOY","GAM","DQ Pack Qty",0.888888888888889
+"TOY","GAM","DQ Power",0
+"TOY","GAM","DQ Age",0.888888888888889
+"TOY","BLO","DQ Brand",1
+"TOY","BLO","DQ Type",1
+"TOY","BLO","DQ Colour",1
+"TOY","BLO","DQ Pack Qty",1
+"TOY","BLO","DQ Power",0
+"TOY","BLO","DQ Age",1
+"SES","BAR","DQ Brand",1
+"SES","BAR","DQ Type",1
+"SES","BAR","DQ Colour",0.333333333333333
+"SES","BAR","DQ Size",0.904761904761905
+"SES","BAR","DQ Assembly",1
+"SES","BAR","DQ Pack Qty",1
+"SES","BAR","DQ Power",0.142857142857143
+"SES","GFN","DQ Brand",1
+"SES","GFN","DQ Type",0.866666666666667
+"SES","GFN","DQ Colour",0.0769230769230769
+"SES","GFN","DQ Size",1
+"SES","GFN","DQ Assembly",1
+"SES","GFN","DQ Material",1
+"SES","CAM","DQ Brand",1
+"SES","CAM","DQ Type",1
+"SES","CAM","DQ Colour",0
+"SES","CAM","DQ Size",1
+"SES","CAM","DQ Assembly",1
+"SES","CAM","DQ Material",1
