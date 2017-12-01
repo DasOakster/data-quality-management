@@ -1,0 +1,222 @@
+PSA_1,PSA_2,Assistant_Buyer,PDT,Web_Trading,PSA_2_Description
+ADM,ADM,Other,Other,Other,Other
+CLE,AIR,Andrew Gould,Reece Richardson,Emma Youd,Aircare
+CLE,DIS,Andrew Gould,Reece Richardson,Emma Youd,Dishwash
+CLE,FLY,Andrew Gould,Reece Richardson,Emma Youd,Fly Spray Stand
+CLE,FUR,Andrew Gould,Reece Richardson,Emma Youd,Furniture Care
+CLE,KIW,Andrew Gould,Reece Richardson,Emma Youd,Kiwi Shoecare
+CLE,LAU,Andrew Gould,Reece Richardson,Emma Youd,Laundry
+CLE,SPC,Andrew Gould,Reece Richardson,Emma Youd,Promotion Specials
+CLE,SUR,Andrew Gould,Reece Richardson,Emma Youd,Surface Care
+CLE,TOI,Andrew Gould,Reece Richardson,Emma Youd,Toilet Cleaners
+DEC,ADH,Rebecca Nixon,Suzanne Calvert-Rodgers,Richard Snowden,Adhesives
+DEC,CAR,Rebecca Nixon,Suzanne Calvert-Rodgers,Richard Snowden,Carpet
+DEC,FIL,Rebecca Nixon,Suzanne Calvert-Rodgers,Richard Snowden,Fillers
+DEC,INS,Rebecca Nixon,Suzanne Calvert-Rodgers,Richard Snowden,Insulation
+DEC,PAS,Rebecca Nixon,Suzanne Calvert-Rodgers,Richard Snowden,Wallpaper Paste
+DEC,PRP,Rebecca Nixon,Suzanne Calvert-Rodgers,Richard Snowden,Preparation
+DEC,ROL,Rebecca Nixon,Suzanne Calvert-Rodgers,Richard Snowden,Rollers-Brushes-Trays
+DEC,STE,Rebecca Nixon,Suzanne Calvert-Rodgers,Richard Snowden,Steps
+DEC,TIL,Rebecca Nixon,Suzanne Calvert-Rodgers,Richard Snowden,Tiles and Accessories
+DEC,WAL,Rebecca Nixon,Suzanne Calvert-Rodgers,Richard Snowden,Wallpaper
+DEC,WOO,Rebecca Nixon,Suzanne Calvert-Rodgers,Richard Snowden,Woodcare
+DIS,BIN,Mark McManus,John Townrow,Emma Youd,Bags and Liners
+DIS,FOO,Mark McManus,John Townrow,Emma Youd,Food Wraps
+DIS,TAB,Mark McManus,John Townrow,Emma Youd,Party Disposables
+DIS,TIS,Mark McManus,John Townrow,Emma Youd,Facial Tissues
+DIS,TOI,Mark McManus,John Townrow,Emma Youd,Toilet Tissues
+DIS,TOW,Mark McManus,John Townrow,Emma Youd,Kitchen Towels
+DIY,BAT,Ashley Dove,Amanda Marshall,Jodie Hunt,Batteries
+DIY,BIK,Ashley Dove,Amanda Marshall,Jodie Hunt,Bikes
+DIY,BIN,Ashley Dove,Amanda Marshall,Jodie Hunt,Bin Stickers
+DIY,BRA,Ashley Dove,Amanda Marshall,Jodie Hunt,Brackets
+DIY,BUL,Ashley Dove,Amanda Marshall,Jodie Hunt,Light Bulbs
+DIY,CYC,Ashley Dove,Amanda Marshall,Jodie Hunt,Cycles
+DIY,DOO,Ashley Dove,Amanda Marshall,Jodie Hunt,Door Furniture
+DIY,ELE,Ashley Dove,Amanda Marshall,Jodie Hunt,Electric
+DIY,FIX,Ashley Dove,Amanda Marshall,Jodie Hunt,General
+DIY,MOT,Ashley Dove,Amanda Marshall,Jodie Hunt,Car Care
+DIY,PLU,Ashley Dove,Amanda Marshall,Jodie Hunt,Plumbing
+DIY,ROP,Ashley Dove,Amanda Marshall,Jodie Hunt,Rope and Chain
+DIY,SCR,Ashley Dove,Amanda Marshall,Jodie Hunt,Screws and Nails
+DIY,SEC,Ashley Dove,Amanda Marshall,Jodie Hunt,Security
+DIY,SHE,Ashley Dove,Amanda Marshall,Jodie Hunt,Shelving
+DIY,TOO,Ashley Dove,Amanda Marshall,Jodie Hunt,Tools
+FOO,CHO,Liz Moore,Donna Johnson,Richard Snowden,Chocolate
+FOO,EAS,Liz Moore,Donna Johnson,Richard Snowden,Easter
+FOO,SP2,Liz Moore,Donna Johnson,Richard Snowden,#NAME?
+FOO,SXM,Liz Moore,Donna Johnson,Richard Snowden,Xmas Confectionery
+GAR,BUA,Holly Mullin,Heather Ryalls,James Armstrong,Autumn Bulbs
+GAR,BUS,Holly Mullin,Heather Ryalls,James Armstrong,Spring Bulbs
+GAR,CAN,Megan Button,Heather Ryalls,James Armstrong,Canes
+GAR,COM,Megan Button,Heather Ryalls,James Armstrong,Compost
+GAR,FER,Megan Button,Heather Ryalls,James Armstrong,Fertilisers
+GAR,GRA,Megan Button,Heather Ryalls,James Armstrong,Grass Seed
+GAR,GYO,Holly Mullin,Heather Ryalls,James Armstrong,Grow Your Own
+GAR,HAN,Megan Button,Heather Ryalls,James Armstrong,Hanging Baskets
+GAR,LIG,Megan Button,Heather Ryalls,James Armstrong,Garden Lighting
+GAR,NET,Megan Button,Heather Ryalls,James Armstrong,Netting and Fencing
+GAR,ORN,Holly Mullin,Heather Ryalls,James Armstrong,Ornaments
+GAR,PCL,Holly Mullin,Heather Ryalls,James Armstrong,Clay Pots
+GAR,PLA,Holly Mullin,Heather Ryalls,James Armstrong,Plants
+GAR,POW,Megan Button,Heather Ryalls,James Armstrong,Garden Power Tools
+GAR,ROO,Megan Button,Heather Ryalls,James Armstrong,Roofing Felt
+GAR,SEB,Holly Mullin,Heather Ryalls,James Armstrong,Johnsons Seeds
+GAR,SEW,Holly Mullin,Heather Ryalls,James Armstrong,Wilko Seeds
+GAR,SUN,Megan Button,Heather Ryalls,James Armstrong,Sundries
+GAR,TOO,Holly Mullin,Heather Ryalls,James Armstrong,Tools
+GAR,TRA,Holly Mullin,Heather Ryalls,James Armstrong,Seed Trays and Propagators
+GAR,TRE,Megan Button,Heather Ryalls,James Armstrong,Trellis and Screening
+GAR,TUB,Megan Button,Heather Ryalls,James Armstrong,Tubs and Planters
+GAR,WAT,Megan Button,Heather Ryalls,James Armstrong,Water Products
+GAR,WEE,Megan Button,Heather Ryalls,James Armstrong,Weed Killers and Insecticides
+GAR,WOO,Holly Mullin,Heather Ryalls,James Armstrong,Exterior Woodcare
+HOM,BAT,Ashlie Ratcliffe,Lynn Eadie,Tom Mullaney,Bathware
+HOM,BED,Avril Jex,Lynn Eadie,Tom Mullaney,Bed Sheets
+HOM,BLI,Avril Jex,Lynn Eadie,Tom Mullaney,Blinds
+HOM,CHI,Avril Jex,Lynn Eadie,Tom Mullaney,Childrens Textiles
+HOM,CLO,Louise Davis,Lynn Eadie,Tom Mullaney,Clocks
+HOM,COO,Louise Davis,Lynn Eadie,Tom Mullaney,Co-ordinates
+HOM,CPT,Avril Jex,Lynn Eadie,Tom Mullaney,Curtain Poles and Track
+HOM,CPX,Avril Jex,Lynn Eadie,Tom Mullaney,Curtain Pole - Crossdock
+HOM,CUR,Avril Jex,Lynn Eadie,Tom Mullaney,Curtains
+HOM,CUS,Louise Davis,Lynn Eadie,Tom Mullaney,Cushions
+HOM,CUT,Louise Davis,Lynn Eadie,Tom Mullaney,Co Cushions
+HOM,DIN,Keira Galloway,Lynn Eadie,Tom Mullaney,Dinner Sets
+HOM,DUV,Avril Jex,Lynn Eadie,Tom Mullaney,Duvet Covers
+HOM,FUR,Louise Davis,Lynn Eadie,Tom Mullaney,Self Assembly Furniture
+HOM,HAB,Mark McManus,Lynn Eadie,Tom Mullaney,Haberdashery
+HOM,LIG,Ashlie Ratcliffe,Lynn Eadie,Tom Mullaney,Lighting
+HOM,MIR,Ashlie Ratcliffe,Lynn Eadie,Tom Mullaney,Mirrors
+HOM,PHO,Ashlie Ratcliffe,Lynn Eadie,Tom Mullaney,Photo Frames
+HOM,PIC,Louise Davis,Lynn Eadie,Tom Mullaney,Pictures
+HOM,QUI,Avril Jex,Lynn Eadie,Tom Mullaney,Quilts and Pillows
+HOM,RUG,Louise Davis,Lynn Eadie,Tom Mullaney,Rugs
+HOM,SHE,Keira Galloway,Lynn Eadie,Tom Mullaney,Shelving
+HOM,SP1,Ashlie Ratcliffe,Lynn Eadie,Tom Mullaney,Home Living Prom SPC 1
+HOM,STO,Louise Davis,Lynn Eadie,Tom Mullaney,Storage
+HOM,TOW,Avril Jex,Lynn Eadie,Tom Mullaney,Towels
+HOU,AIR,Mark McManus,John Townrow,Emma Youd,Airers
+HOU,DUS,Mark McManus,John Townrow,Emma Youd,Dustbins
+HOU,HEA,Mark McManus,John Townrow,Emma Youd,Heat
+HOU,HTV,Mark McManus,John Townrow,Emma Youd,High Street TV
+HOU,IRN,Mark McManus,John Townrow,Emma Youd,Ironing
+HOU,JML,Mark McManus,John Townrow,Emma Youd,JML Promotion Lines
+HOU,MAT,Avril Jex,Lynn Eadie,Tom Mullaney,Mats
+HOU,MOP,Mark McManus,John Townrow,Emma Youd,Mops and Brushes
+HOU,PEG,Mark McManus,John Townrow,Emma Youd,Pegs and Lines
+HOU,SCO,Mark McManus,John Townrow,Emma Youd,Scourers and Cloths
+HOU,SPC,Mark McManus,John Townrow,Emma Youd,Housewares Promo Special
+HOU,SWE,Mark McManus,John Townrow,Emma Youd,Sweepers and Bags
+HOU,WAR,Mark McManus,John Townrow,Emma Youd,Wardrobe
+KIT,BAK,Keira Galloway,John Townrow,Jodie Hunt,Tinbakeware
+KIT,BAP,Keira Galloway,John Townrow,Jodie Hunt,Baking
+KIT,CHA,Keira Galloway,John Townrow,Jodie Hunt,Kids Character Tableware
+KIT,COL,Keira Galloway,John Townrow,Jodie Hunt,Kitchen Collection
+KIT,CUT,Keira Galloway,John Townrow,Jodie Hunt,Cutlery
+KIT,DIN,Keira Galloway,John Townrow,Jodie Hunt,Dinnerware
+KIT,ELE,Keira Galloway,John Townrow,Jodie Hunt,Kitchen Electrics
+KIT,FAB,Keira Galloway,John Townrow,Jodie Hunt,Fablon - Tea Towels
+KIT,FIL,Keira Galloway,John Townrow,Jodie Hunt,Water Filters
+KIT,FOO,Keira Galloway,John Townrow,Jodie Hunt,Food Storage
+KIT,GAD,Keira Galloway,John Townrow,Jodie Hunt,Gadgets
+KIT,GLA,Keira Galloway,John Townrow,Jodie Hunt,Glassware
+KIT,HOL,Keira Galloway,John Townrow,Jodie Hunt,Holloware
+KIT,HOM,Keira Galloway,John Townrow,Jodie Hunt,Homebrew
+KIT,MSP,Keira Galloway,John Townrow,Jodie Hunt,Misc Plastics
+KIT,MUG,Keira Galloway,John Townrow,Jodie Hunt,Mugs
+KIT,OTT,Keira Galloway,John Townrow,Jodie Hunt,Pot-Glass and Microwave
+KIT,PLA,Keira Galloway,John Townrow,Jodie Hunt,Plastics
+KIT,SPC,Keira Galloway,John Townrow,Jodie Hunt,Kitchen Promotion Specials
+KIT,STO,Keira Galloway,John Townrow,Jodie Hunt,Kitchen Storage
+KIT,TAB,Keira Galloway,John Townrow,Jodie Hunt,Tabletop
+KIT,TEX,Keira Galloway,John Townrow,Jodie Hunt,Kitchen Textiles
+PAI,CRO,Rebecca Nixon,Suzanne Calvert-Rodgers,Richard Snowden,Crown Paints
+PAI,EMU,Rebecca Nixon,Suzanne Calvert-Rodgers,Richard Snowden,Wilko Paint Emulsions
+PAI,EXT,Rebecca Nixon,Suzanne Calvert-Rodgers,Richard Snowden,Wilko Paint Exterior Gloss
+PAI,GLO,Rebecca Nixon,Suzanne Calvert-Rodgers,Richard Snowden,Gloss and Trim Paint
+PAI,ICI,Rebecca Nixon,Suzanne Calvert-Rodgers,Richard Snowden,Dulux Paint
+PAI,INT,Rebecca Nixon,Suzanne Calvert-Rodgers,Richard Snowden,Wilko Paint Interior Gloss
+PAI,PLA,Rebecca Nixon,Suzanne Calvert-Rodgers,Richard Snowden,Plastikote
+PAI,WAP,Rebecca Nixon,Suzanne Calvert-Rodgers,Richard Snowden,Wilko Paint Whites and Prep
+PET,100,Aimee Brocklebank,Reece Richardson,Jodie Hunt,100m Pets
+PET,BED,Aimee Brocklebank,Reece Richardson,Jodie Hunt,Dog and Cat Beds
+PET,CAT,Aimee Brocklebank,Reece Richardson,Jodie Hunt,Cat Food
+PET,DOG,Aimee Brocklebank,Reece Richardson,Jodie Hunt,Dog Food
+PET,DOM,Aimee Brocklebank,Reece Richardson,Jodie Hunt,Domestic Bird and Fish
+PET,GEN,Aimee Brocklebank,Reece Richardson,Jodie Hunt,Pet Accessories
+PET,LIT,Aimee Brocklebank,Reece Richardson,Jodie Hunt,Cat Litter
+PET,REP,Aimee Brocklebank,Reece Richardson,Jodie Hunt,Reptile
+PET,SMA,Aimee Brocklebank,Reece Richardson,Jodie Hunt,Small Animal
+PET,TRT,Aimee Brocklebank,Reece Richardson,Jodie Hunt,Treats
+PET,WIL,Aimee Brocklebank,Reece Richardson,Jodie Hunt,Wild Bird
+SBK,ADH,Greg Able,Amanda Marshall,Emma Youd,Adhesives Stationery
+SBK,ADU,Greg Able,Amanda Marshall,Emma Youd,Adult Craft
+SBK,BOM,Greg Able,Amanda Marshall,Emma Youd,Books Metreage
+SBK,COM,Greg Able,Amanda Marshall,Emma Youd,Computer Accessories
+SBK,COO,Greg Able,Amanda Marshall,Emma Youd,Stationery Co-ordinates
+SBK,DES,Greg Able,Amanda Marshall,Emma Youd,Desk Top Stationery
+SBK,GIF,Greg Able,Amanda Marshall,Emma Youd,Giftwrap
+SBK,KFL,Greg Able,Amanda Marshall,Emma Youd,Kids Fashion and Licensed
+SBK,KID,Greg Able,Amanda Marshall,Emma Youd,Childrens Stationery
+SBK,NOT,Greg Able,Amanda Marshall,Emma Youd,Notebooks
+SBK,OFF,Greg Able,Amanda Marshall,Emma Youd,Office Stationery
+SBK,PAR,Greg Able,Amanda Marshall,Emma Youd,Partyware
+SBK,PHO,Greg Able,Amanda Marshall,Emma Youd,Photo Albums
+SBK,SPC,Greg Able,Amanda Marshall,Emma Youd,Promotion Specials
+SER,CAR,Steve Roberts,Amanda Marshall,Jodie Hunt,Gift Cards
+SES,BAR,Holly Mullin,Amanda Marshall,Jodie Hunt,Barbecue
+SES,CAM,Holly Mullin,Amanda Marshall,Jodie Hunt,Camping
+SES,COV,Holly Mullin,Amanda Marshall,Jodie Hunt,Furniture Covers
+SES,GFN,Holly Mullin,Amanda Marshall,Jodie Hunt,Garden Furniture
+SES,LUG,Holly Mullin,Amanda Marshall,Jodie Hunt,Luggage
+SES,PIC,Holly Mullin,Amanda Marshall,Jodie Hunt,Picnic
+SES,SPC,Holly Mullin,Amanda Marshall,Jodie Hunt,Promotion Specials
+SES,TRA,Holly Mullin,Amanda Marshall,Jodie Hunt,Luggage Accessories
+TOI,ACB,Emma Butcher,Owen Howarth,James Armstrong,Bath Accessories
+TOI,BAB,Emma Butcher,Owen Howarth,James Armstrong,Baby Toiletries
+TOI,BAC,Emma Butcher,Owen Howarth,James Armstrong,Baby Feeding
+TOI,BAN,Emma Butcher,Owen Howarth,James Armstrong,Nappy and Wipes
+TOI,BAT,Caroline McDade,Owen Howarth,James Armstrong,Bath and Soap
+TOI,COL,Caroline McDade,Owen Howarth,James Armstrong,Collection 2000
+TOI,COS,Caroline McDade,Owen Howarth,James Armstrong,Image Cosmetics
+TOI,CRE,Caroline McDade,Owen Howarth,James Armstrong,Creative Max Stand
+TOI,DEN,Caroline McDade,Owen Howarth,James Armstrong,Dental Care
+TOI,ELE,Caroline McDade,Owen Howarth,James Armstrong,Electrical Goods
+TOI,EYE,Emma Butcher,Owen Howarth,James Armstrong,Eyecare
+TOI,FAA,Emma Butcher,Owen Howarth,James Armstrong,Facial Accessories
+TOI,FAC,Anna Stepnowska,Owen Howarth,James Armstrong,Facial
+TOI,FEM,Laura Riding,Owen Howarth,James Armstrong,Female Grooming
+TOI,FOO,Emma Butcher,Owen Howarth,James Armstrong,Baby Food
+TOI,FRU,Anna Stepnowska,Owen Howarth,James Armstrong,Fruits
+TOI,HAI,Anna Stepnowska,Owen Howarth,James Armstrong,Hair Colours
+TOI,HOS,Emma Butcher,Owen Howarth,James Armstrong,Hosiery
+TOI,MAX,Caroline McDade,Owen Howarth,James Armstrong,Maxfactor Cosmetics
+TOI,MAY,Caroline McDade,Owen Howarth,James Armstrong,Maybelline Cosmetics
+TOI,MED,Emma Butcher,Owen Howarth,James Armstrong,Medicines
+TOI,MEN,Laura Riding,Owen Howarth,James Armstrong,Male Grooming
+TOI,MON,Anna Stepnowska,Owen Howarth,James Armstrong,Monty Jeunesse
+TOI,PER,Emma Butcher,Owen Howarth,James Armstrong,Perfume
+TOI,RIM,Caroline McDade,Owen Howarth,James Armstrong,Rimmel Cosmetics
+TOI,SAN,Emma Butcher,Owen Howarth,James Armstrong,Sanitary
+TOI,SHA,Laura Riding,Owen Howarth,James Armstrong,Sunglasses
+TOI,SHC,Anna Stepnowska,Owen Howarth,James Armstrong,Shampoo and Styling
+TOI,SMO,Emma Butcher,Owen Howarth,James Armstrong,Smoking Cessation
+TOI,SPC,Anna Stepnowska,Owen Howarth,James Armstrong,Toiletries Promo Special 2
+TOI,SUN,Laura Riding,Owen Howarth,James Armstrong,Suncare and Sunglasses
+TOI,TRA,Laura Riding,Owen Howarth,James Armstrong,Travel Minis
+TOY,ACT,Nick Roe,Clare Cotterill,Jodie Hunt,Action
+TOY,BLO,Nick Roe,Clare Cotterill,Jodie Hunt,Blox and Cup
+TOY,BOY,Nick Roe,Clare Cotterill,Jodie Hunt,Boys Toys
+TOY,COL,Nick Roe,Clare Cotterill,Jodie Hunt,Collectables
+TOY,CRE,Nick Roe,Clare Cotterill,Jodie Hunt,Creative
+TOY,FAN,Nick Roe,Clare Cotterill,Jodie Hunt,Fantasy
+TOY,GAM,Nick Roe,Clare Cotterill,Jodie Hunt,Games and Activities
+TOY,GIR,Nick Roe,Clare Cotterill,Jodie Hunt,Girls Toys
+TOY,JIG,Nick Roe,Clare Cotterill,Jodie Hunt,Jigsaws
+TOY,PLU,Nick Roe,Clare Cotterill,Jodie Hunt,Plush
+TOY,POC,Nick Roe,Clare Cotterill,Jodie Hunt,Pocket Money
+TOY,PRE,Nick Roe,Clare Cotterill,Jodie Hunt,Pre-School
+TOY,SPC,Nick Roe,Clare Cotterill,Jodie Hunt,Promotion Specials
+TOY,SST,Nick Roe,Clare Cotterill,Jodie Hunt,Spring and Summer Toys
+XMD,LIG,Amy Hebden,Amanda Marshall,Jodie Hunt,Lights
